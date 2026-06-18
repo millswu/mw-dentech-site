@@ -20,6 +20,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 116px;
 }
 
 body {
@@ -43,7 +44,7 @@ a {
 
 .site-header {
   position: fixed;
-  z-index: 20;
+  z-index: 200;
   top: 0;
   right: 0;
   left: 0;
@@ -108,6 +109,11 @@ nav a:hover {
 .language-menu {
   position: relative;
   flex: 0 0 auto;
+  z-index: 220;
+}
+
+.language-menu[open] {
+  z-index: 260;
 }
 
 .language-menu summary {
@@ -160,10 +166,12 @@ nav a:hover {
 
 .language-menu-panel {
   position: absolute;
-  z-index: 40;
+  z-index: 240;
   top: calc(100% + 10px);
   right: 0;
-  width: 178px;
+  width: 206px;
+  max-height: min(60vh, 340px);
+  overflow-y: auto;
   padding: 7px;
   background: var(--white);
   border: 1px solid rgba(220, 229, 223, 0.92);
@@ -171,7 +179,8 @@ nav a:hover {
   box-shadow: 0 18px 46px rgba(23, 32, 31, 0.16);
 }
 
-.language-menu-panel a {
+.language-menu-panel a,
+.language-menu-panel span {
   display: block;
   padding: 10px 11px;
   color: var(--muted);
@@ -1086,6 +1095,101 @@ nav a:hover {
   font-size: 15px;
 }
 
+.partner-portal {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.92fr) minmax(320px, 1.08fr);
+  gap: clamp(24px, 5vw, 72px);
+  align-items: center;
+  background:
+    linear-gradient(135deg, rgba(15, 111, 103, 0.11), rgba(185, 130, 46, 0.1)),
+    var(--white);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.partner-portal-copy h2 {
+  max-width: 720px;
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(32px, 4.4vw, 60px);
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
+.partner-portal-copy p {
+  max-width: 760px;
+  margin: 24px 0 0;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.partner-portal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.partner-portal-status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.partner-portal-status span {
+  padding: 7px 10px;
+  color: var(--teal-dark);
+  background: rgba(15, 111, 103, 0.09);
+  border: 1px solid rgba(15, 111, 103, 0.18);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.partner-portal-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.partner-portal-grid article {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 8px 16px;
+  padding: 20px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 18px 48px rgba(23, 32, 31, 0.06);
+}
+
+.partner-portal-grid span {
+  grid-row: span 2;
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  color: var(--white);
+  background: var(--teal);
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.partner-portal-grid strong {
+  color: var(--teal-dark);
+  font-size: 19px;
+  line-height: 1.1;
+}
+
+.partner-portal-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .advantage {
   background:
     linear-gradient(135deg, rgba(8, 75, 70, 0.06), rgba(185, 130, 46, 0.08)),
@@ -1232,7 +1336,7 @@ nav a:hover {
 }
 
 .case-card-fullarch .case-panel img {
-  background: #030303;
+  background: #4c4174;
 }
 
 .case-card-body {
@@ -1354,6 +1458,18 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
+}
+
+.pricing-vat-note {
+  margin: -10px 0 22px;
+  padding: 16px 18px;
+  color: var(--teal-dark);
+  background: var(--sage);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .pricing-card {
@@ -1937,10 +2053,16 @@ nav a:hover {
 }
 
 @media (max-width: 880px) {
+  html {
+    scroll-padding-top: 0;
+  }
+
   .site-header {
-    position: static;
+    position: relative;
+    z-index: 200;
     align-items: flex-start;
     flex-direction: column;
+    overflow: visible;
   }
 
   nav {
@@ -1954,11 +2076,16 @@ nav a:hover {
     flex-direction: column;
     width: 100%;
     margin-left: 0;
+    overflow: visible;
   }
 
   .language-menu-panel {
+    position: static;
     right: auto;
     left: 0;
+    width: min(260px, calc(100vw - 36px));
+    max-height: none;
+    margin-top: 8px;
   }
 
   .hero {
@@ -1977,6 +2104,7 @@ nav a:hover {
   .axisguide-evidence,
   .clinical-note,
   .workflow,
+  .partner-portal,
   .order-columns,
   .intake-matrix,
   .payment-note,
@@ -1992,6 +2120,7 @@ nav a:hover {
   .case-evidence-grid,
   .standards-grid,
   .data-grid,
+  .partner-portal-grid,
   .faq-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2091,7 +2220,13 @@ nav a:hover {
   .case-evidence-grid,
   .standards-grid,
   .data-grid,
+  .partner-portal,
+  .partner-portal-grid,
   .faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .partner-portal-grid article {
     grid-template-columns: 1fr;
   }
 
