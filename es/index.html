@@ -3,11 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MW DenTech | Partner de diseño dental digital</title>
-    <meta
-      name="description"
-      content="MW DenTech apoya a laboratorios dentales y clínicas digitalizadas con servicios CAD de precio publicado, pilares personalizados, guías de implante, férulas y planificación de rehabilitación compleja con alcance definido."
-    >    <link rel="alternate" hreflang="en" href="../index.html">
+    <title>MW DenTech | Diseño y producción para laboratorios dentales</title>
+    <meta name="description" content="MW DenTech diseña y fabrica restauraciones para laboratorios dentales: coronas de circonio y disilicato de litio, carillas, coronas sobre implantes y férulas, con precio por unidad y diseño incluido, además de la planificación de casos full-mouth y full-arch.">
+    <link rel="alternate" hreflang="en" href="../index.html">
     <link rel="alternate" hreflang="es" href="../es/index.html">
     <link rel="alternate" hreflang="de" href="../de/index.html">
     <link rel="alternate" hreflang="fr" href="../fr/index.html">
@@ -16,697 +14,248 @@
     <link rel="alternate" hreflang="zh-Hans" href="../zh/index.html">
     <link rel="alternate" hreflang="ja" href="../ja/index.html">
     <link rel="alternate" hreflang="x-default" href="../index.html">
-    <link rel="icon" href="../assets/mw-metalab-logo.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="../styles.css?v=20260612-eu-languages">
+    <link rel="icon" href="../assets/mw-dentech-logo.svg" type="image/svg+xml">
+    <link rel="preload" href="../assets/fonts/fira-sans-light.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../assets/fonts/fira-sans-regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="stylesheet" href="../home.css?v=20261121">
   </head>
   <body>
-    <header class="site-header" aria-label="Navegación principal">
-      <a class="brand" href="#top" aria-label="Inicio de M&amp;W METALAB">
-        <img class="brand-logo" src="../assets/mw-metalab-logo.svg" alt="M&amp;W METALAB">
-        <span>
-          <strong>MW DenTech</strong>
-          <small>Barcelona, España</small>
-        </span>
-      </a>
-      <div class="header-actions">
-        <nav>
-          <a href="#services">Servicios</a>
-          <a href="#workflow">Flujo</a>
-          <a href="#standards">Estándares</a>
-          <a href="#casehub">CaseHub</a>
-          <a href="#pricing">Precios</a>
-          <a href="#order">Empezar</a>
-        </nav>        <details class="language-menu">
-          <summary aria-label="Seleccionar idioma">
-            <svg class="language-icon" aria-hidden="true" viewBox="0 0 24 24" focusable="false">
-              <circle cx="12" cy="12" r="9"></circle>
-              <path d="M3 12h18"></path>
-              <path d="M12 3a13.5 13.5 0 0 1 0 18"></path>
-              <path d="M12 3a13.5 13.5 0 0 0 0 18"></path>
-            </svg>
-            <span>ES</span>
-            <span class="language-chevron" aria-hidden="true"></span>
-          </summary>
-          <div class="language-menu-panel" role="list">
-            <a href="../index.html" hreflang="en" lang="en" role="listitem">English</a>
-            <a class="is-current" href="../es/index.html" aria-current="page" role="listitem">Español</a>
-            <a href="../de/index.html" hreflang="de" lang="de" role="listitem">Deutsch</a>
-            <a href="../fr/index.html" hreflang="fr" lang="fr" role="listitem">Français</a>
-            <a href="../nl/index.html" hreflang="nl" lang="nl" role="listitem">Nederlands</a>
-            <a href="../it/index.html" hreflang="it" lang="it" role="listitem">Italiano</a>
-            <a href="../zh/index.html" hreflang="zh-Hans" lang="zh-Hans" role="listitem">中文</a>
-            <a href="../ja/index.html" hreflang="ja" lang="ja" role="listitem">日本語</a>
-          </div>
-        </details>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#top" aria-label="Inicio de MW DenTech">
+          <img src="../assets/home/mw-mark-ink.svg" alt="" width="46" height="28">
+          <span>
+            <strong>MW DenTech</strong>
+            <small>Diseño y producción para laboratorios dentales</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Principal">
+          <a href="#products">Productos y precios</a>
+          <a href="#complex">Casos complejos</a>
+          <a href="#workflow">Cómo funciona</a>
+        </nav>
+        <div class="header-tools">
+          <details class="language-menu">
+            <summary aria-label="Seleccionar idioma">
+              <svg class="language-icon" aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M3 12h18"></path>
+                <path d="M12 3a13.5 13.5 0 0 1 0 18"></path>
+                <path d="M12 3a13.5 13.5 0 0 0 0 18"></path>
+              </svg>
+              <span>ES</span>
+              <span class="language-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="language-menu-panel" role="list">
+              <a href="../index.html" hreflang="en" lang="en" role="listitem">English</a>
+              <a class="is-current" href="../es/index.html" aria-current="page" role="listitem">Español</a>
+              <a href="../de/index.html" hreflang="de" lang="de" role="listitem">Deutsch</a>
+              <a href="../fr/index.html" hreflang="fr" lang="fr" role="listitem">Français</a>
+              <a href="../nl/index.html" hreflang="nl" lang="nl" role="listitem">Nederlands</a>
+              <a href="../it/index.html" hreflang="it" lang="it" role="listitem">Italiano</a>
+              <a href="../zh/index.html" hreflang="zh-Hans" lang="zh-Hans" role="listitem">中文</a>
+              <a href="../ja/index.html" hreflang="ja" lang="ja" role="listitem">日本語</a>
+            </div>
+          </details>
+          <a class="btn btn-primary btn-small" href="#start">Empieza un caso de prueba</a>
+        </div>
       </div>
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-media" aria-hidden="true"></div>
-        <div class="hero-copy">
-          <img class="hero-logo" src="../assets/mw-metalab-logo.svg" alt="M&amp;W METALAB">
-          <p class="eyebrow">Diseño dental digital para laboratorios y clínicas</p>
-          <h1 id="hero-title">MW DenTech</h1>
-          <p class="hero-lede">
-            Servicios CAD con precio publicado para trabajos digitales rutinarios, con soporte de planificación de alcance definido para rehabilitaciones complejas.
-          </p>
-          <div class="hero-proof" aria-label="Posicionamiento principal">
-            <span>Partner internacional de diseño</span>
-            <span>Archivos CAD listos para revisión</span>
-            <span>Beta privada de CaseHub para partners</span>
+      <section class="hero on-dark" aria-labelledby="hero-title">
+        <div class="wrap">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <h1 class="h1" id="hero-title">Diseño y producción para laboratorios dentales.</h1>
+              <p class="lede muted">Tú envías el escaneado o tu propio diseño. Nosotros diseñamos, fresamos, maquillamos y glaseamos, y te devolvemos la restauración terminada con el nombre de tu laboratorio.</p>
+              <div class="actions">
+                <a class="btn btn-primary" href="#start">Empieza un caso de prueba</a>
+                <a class="btn btn-ghost" href="#products">Ver precios</a>
+              </div>
+            </div>
+            <figure class="hero-figure">
+              <img src="../assets/home/hero-crowns.jpg" width="1800" height="671" alt="Restauraciones anteriores terminadas y glaseadas sobre un modelo impreso">
+            </figure>
           </div>
-          <div class="hero-actions">
-            <a class="button primary" href="#order">Iniciar un caso</a>
-            <a class="button secondary" href="#services">Ver servicios</a>
-          </div>
+          <dl class="spec" aria-label="Datos clave">
+            <div><dt>Diseño</dt><dd>Incluido</dd></div>
+            <div><dt>Corona de circonio</dt><dd>Desde 45 €</dd></div>
+            <div><dt>Producción</dt><dd>5–7 días laborables</dd></div>
+          </dl>
         </div>
       </section>
 
-      <section class="trust-band" aria-label="Posicionamiento">
-        <div>
-          <strong>CAD restaurador</strong>
-          <span>Coronas, puentes, inlays, onlays, cofias y wax-ups de carillas para flujos restauradores controlados.</span>
-        </div>
-        <div>
-          <strong>Diseño de implantes y férulas</strong>
-          <span>Guías quirúrgicas, pilares personalizados, coronas sobre implante, férulas oclusales y desprogramadores.</span>
-        </div>
-        <div>
-          <strong>Flujos de rehabilitación</strong>
-          <span>Rehabilitación full-mouth en dentición natural, desgaste/VDO y soporte full-arch sobre implantes, incluidos flujos All-on-X.</span>
-        </div>
-      </section>
-
-      <section class="section intro" aria-labelledby="intro-title">
-        <div class="section-kicker">A quién apoyamos</div>
-        <h2 id="intro-title">Capacidad CAD disciplinada para casos digitales complejos.</h2>
-        <p>
-          MW DenTech apoya a laboratorios dentales y clínicas digitalizadas que necesitan ayuda externa de diseño para corona y puente, estética, implantes, férulas, rehabilitación oclusal full-mouth y rehabilitación full-arch sobre implantes.
-        </p>
-      </section>
-
-      <section class="section services" id="services" aria-labelledby="services-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">Servicios</div>
-            <h2 id="services-title">Servicios CAD con precio publicado y flujos de rehabilitación compleja.</h2>
+      <section class="section" id="products" aria-labelledby="products-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 class="h2" id="products-title">Restauraciones terminadas, por unidad, diseño incluido.</h2>
+            <div class="notes">
+              <p>Precios netos en euros, sin IVA ni gastos de importación. Envío a precio de coste.</p>
+              <p>Fabricado en China. El trabajo sale con tu nombre y tus dentistas siguen siendo tuyos.</p>
+            </div>
           </div>
-          <p>
-            El soporte CAD principal se separa de los flujos estratégicos de rehabilitación, para que los casos rutinarios y las reconstrucciones por fases se definan con claridad desde el inicio.
-          </p>
-        </div>
-
-        <div class="service-tier">
-          <div class="service-tier-heading">
-            <span>Servicios CAD principales</span>
-            <p>Soporte CAD compacto y orientado a producción para casos en los que la posición clínica y la dirección del tratamiento ya están definidas.</p>
-          </div>
-          <div class="service-grid core-service-grid">
-            <article>
-              <img src="../assets/strengths-1.png" alt="Restauraciones cerámicas organizadas para revisión profesional">
-              <h3>CAD restaurador fijo</h3>
-              <p>Coronas unitarias, puentes, carillas, inlays, onlays, cofias y archivos CAD restauradores preparados para revisión técnica y producción.</p>
-            </article>
-            <article>
-              <img src="../assets/esthetic-1.png" alt="Interfaz de planificación de sonrisa para casos estéticos">
-              <h3>Diseño estético de sonrisa</h3>
-              <p>Diseño de sonrisa, wax-up digital, morfología anterior, textura, simetría y flujos estéticos con soporte de SmileCloud.</p>
-            </article>
-            <article>
-              <img src="../assets/restorative-case-2.png" alt="Resultado CAD de corona sobre implante en modelo">
-              <h3>CAD restaurador sobre implantes</h3>
-              <p>Pilares personalizados, coronas sobre implante, restauraciones atornilladas, diseño de perfil de emergencia y soporte CAD restaurador sobre implantes.</p>
-            </article>
-            <article>
-              <img src="../assets/guide-partial-arch-card.jpg" alt="CAD de guía quirúrgica para implante unitario y arcada parcial">
-              <h3>Guías quirúrgicas</h3>
-              <p>CAD de guía para implante unitario con sitios adicionales valorados por alcance, además de diseño guiado de arcada parcial cuando el plan de implantes y el protocolo de casquillos están claros.</p>
-            </article>
-            <article>
-              <img src="../assets/tmj-overview-1.png" alt="CAD de desprogramador digital y aparato oclusal">
-              <h3>Férulas oclusales y desprogramadores</h3>
-              <p>Férulas Michigan, férulas de estabilización, férulas nocturnas, desprogramadores y CAD rutinario de aparatos cuando la posición de mordida ya está prescrita.</p>
-            </article>
-          </div>
-        </div>
-
-        <div class="service-tier workflow-tier">
-          <div class="service-tier-heading">
-            <span>Flujos de rehabilitación compleja</span>
-            <p>Soporte estratégico de planificación por caso para tratamientos que necesitan secuenciación, verificación y coordinación de provisional a definitivo.</p>
-          </div>
-          <div class="workflow-service-grid">
-            <article class="workflow-service-card">
-              <img class="axisguide-card-image" src="../assets/axisguide-localizator-cad-detail.jpg" alt="Localizador AxisGuide diseñado en CAD sobre la arcada mandibular">
-              <span>AxisGuide</span>
-              <h3>Rehabilitación funcional ATM y oclusal</h3>
-              <p>Soporte de planificación informado por MRI/CBCT/STL para casos seleccionados de rehabilitación restauradora, ortodóncica y full-mouth sensibles a la ATM, liderados por el clínico.</p>
-              <a class="case-link service-card-link" href="axisguide.html">Conocer AxisGuide</a>
-            </article>
-            <article class="workflow-service-card">
-              <img class="full-mouth-card-image" src="../assets/full-mouth-occlusal-rehab-card-v2.jpg" alt="Planificación CAD de rehabilitación oclusal full-mouth en dentición natural">
-              <span>Full-mouth</span>
-              <h3>Rehabilitación oclusal full-mouth</h3>
-              <p>Rehabilitación integral para dentición desgastada, modificación de VDO, corrección del plano oclusal, wax-up aditivo, diseño provisional y coordinación CAD restauradora final.</p>
-            </article>
-            <article class="workflow-service-card">
-              <img class="full-arch-card-image" src="../assets/full-arch-implant-rehab-card-left-two.jpg" alt="Prótesis provisional full-arch sobre implantes y estructura metálica">
-              <span>Full-arch</span>
-              <h3>Rehabilitación full-arch sobre implantes</h3>
-              <p>Flujos All-on-X y dentición terminal, incluyendo planificación full-arch sobre implantes, diseño de guía quirúrgica, planificación de pines de fijación, provisional de carga inmediata, verificación y soporte para la prótesis full-arch final.</p>
-            </article>
-          </div>
-        </div>
-
-      </section>
-
-      <section class="section workflow" id="workflow" aria-labelledby="workflow-title">
-        <div class="workflow-image">
-          <img class="workflow-preview-image" src="../assets/workflow-transparent-guide.jpg" alt="Guía quirúrgica de implante impresa en 3D preparada para revisión del flujo CAD">
-        </div>
-        <div class="workflow-copy">
-          <div class="section-kicker">Flujo de trabajo</div>
-          <h2 id="workflow-title">Un flujo de diseño claro para casos de prueba y trabajo recurrente.</h2>
-          <ol>
+          <ul class="catalog">
             <li>
-              <strong>Enviar el caso</strong>
-              <span>Comparta escaneos, datos de mordida, tipo de caso, formato de salida y cualquier imagen de referencia o detalle del sistema de implantes.</span>
+              <figure><img src="../assets/home/p-crowns.jpg" width="640" height="480" alt="Coronas de circonio" loading="lazy"></figure>
+              <div class="about">
+                <h3 class="h3">Coronas y puentes</h3>
+                <p>Circonio monolítico, diseñado por nuestro equipo o fabricado a partir de tu diseño.</p>
+              </div>
+              <ul class="prices">
+                <li><span>Corona / unidad de puente de circonio monolítico</span><b>45 €</b></li>
+              </ul>
             </li>
             <li>
-              <strong>Confirmar el alcance</strong>
-              <span>Confirmamos alcance de diseño, plazo, precio y entregables previstos antes de comenzar el trabajo.</span>
+              <figure><img src="../assets/home/p-anterior.jpg" width="640" height="480" alt="Diseño de una restauración anterior sobre una foto de sonrisa" loading="lazy"></figure>
+              <div class="about">
+                <h3 class="h3">Anteriores y carillas</h3>
+                <p>Circonio maquillado individualmente, disilicato de litio e IPS e.max.</p>
+              </div>
+              <ul class="prices">
+                <li><span>Circonio anterior, maquillado individualmente</span><b>50 €</b></li>
+                <li><span>Corona / carilla de disilicato de litio</span><b>50 €</b></li>
+                <li><span>Corona / carilla IPS e.max</span><b>75 €</b></li>
+              </ul>
             </li>
             <li>
-              <strong>Diseñar</strong>
-              <span>Nuestro equipo prepara los archivos CAD según los requisitos acordados del caso y el método de producción.</span>
+              <figure><img src="../assets/home/p-implant.jpg" width="480" height="360" alt="Coronas de circonio sobre implante con Ti-base" loading="lazy"></figure>
+              <div class="about">
+                <h3 class="h3">Coronas sobre implantes</h3>
+                <p>Circonio sobre Ti-base, atornilladas o cementadas.</p>
+              </div>
+              <ul class="prices">
+                <li><span>Corona de circonio sobre implante (Ti-base aparte)</span><b>45 €</b></li>
+              </ul>
             </li>
             <li>
-              <strong>Revisar</strong>
-              <span>Su equipo revisa los archivos y solicita ajustes si son necesarios antes de la fabricación.</span>
+              <figure><img src="../assets/home/p-splint.jpg" width="640" height="480" alt="Diseño digital de una férula oclusal" loading="lazy"></figure>
+              <div class="about">
+                <h3 class="h3">Férulas oclusales</h3>
+                <p>Férulas Michigan y de estabilización, hechas según la mordida prescrita.</p>
+              </div>
+              <ul class="prices">
+                <li><span>Férula oclusal (Michigan), por arcada</span><b>60 €</b></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section porcelain" id="complex" aria-labelledby="complex-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 class="h2" id="complex-title">Casos complejos.</h2>
+            <div class="notes">
+              <p>Primero se planifican contigo y luego los diseña y fabrica el mismo equipo.</p>
+              <p>Presupuesto por caso.</p>
+            </div>
+          </div>
+          <div class="cases">
+            <article>
+              <figure><img src="../assets/home/c-full-mouth.jpg" width="960" height="600" alt="Planificación de una rehabilitación oclusal full-mouth" loading="lazy"></figure>
+              <h3 class="h3">Rehabilitación full-mouth</h3>
+              <p>Desgaste dental y cambios de DVO, planificados como una sola oclusión.</p>
+            </article>
+            <article>
+              <figure><img src="../assets/home/c-full-arch.jpg" width="912" height="570" alt="Prótesis provisional full-arch sobre implantes y estructura" loading="lazy"></figure>
+              <h3 class="h3">Casos full-arch sobre implantes</h3>
+              <p>De la guía y el provisional a la prótesis definitiva.</p>
+            </article>
+            <article>
+              <figure><img src="../assets/home/c-axisguide.jpg" width="960" height="600" alt="Cráneo CBCT y portador de posición CAD para la planificación con AxisGuide" loading="lazy"></figure>
+              <h3 class="h3">Casos de ATM y oclusión</h3>
+              <p>Planificación apoyada en imagen para rehabilitaciones en las que interviene la ATM.</p>
+              <a class="text-link" href="axisguide.html">Conocer AxisGuide</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="workflow" aria-labelledby="workflow-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 class="h2" id="workflow-title">Tres pasos.</h2>
+          </div>
+          <ol class="steps">
+            <li>
+              <h3 class="h3">Envía el caso</h3>
+              <p>El escaneado o tu propio diseño, con material, color y fecha de entrega. A través de MW CaseHub o como ya envías tus archivos.</p>
+            </li>
+            <li>
+              <h3 class="h3">Lo diseñamos y fabricamos</h3>
+              <p>Puedes revisar el diseño antes del fresado. La producción tarda 5–7 días laborables.</p>
+            </li>
+            <li>
+              <h3 class="h3">Lo recibes</h3>
+              <p>La restauración terminada llega a tu laboratorio por mensajería.</p>
             </li>
           </ol>
         </div>
       </section>
 
-      <section class="section standards" id="standards" aria-labelledby="standards-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">Estándares operativos</div>
-            <h2 id="standards-title">Alcance claro, tiempos confirmados y revisiones controladas.</h2>
+      <section class="section on-dark" id="start" aria-labelledby="start-title">
+        <div class="wrap trial-grid">
+          <div class="trial-copy">
+            <h2 class="h2" id="start-title">Empieza con un caso de prueba.</h2>
+            <p class="lede muted">Envía un caso y juzga el resultado en tu propia mesa de trabajo.</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="mailto:hello@mwdentech.com?subject=Caso%20de%20prueba%20MW%20DenTech&amp;body=Laboratorio%3A%0APa%C3%ADs%3A%0ATipo%20de%20restauraci%C3%B3n%20y%20material%3A%0AUnidades%3A%0AColor%3A%0AArchivos%20%28escaneado%20o%20tu%20propio%20dise%C3%B1o%29%3A%0AFecha%20de%20entrega%20deseada%3A">Enviar un caso de prueba</a>
+              <a class="btn btn-ghost" href="tel:+8613520990993">+86 135 2099 0993</a>
+            </div>
           </div>
-          <p>
-            Hacemos explícitos los detalles prácticos antes de iniciar el CAD, para que su equipo sepa qué se entregará y cuándo podrá revisarlo.
-          </p>
-        </div>
-        <div class="standards-grid">
-          <article>
-            <strong>Recepción del caso</strong>
-            <span>El código de caso, escaneos, registro de mordida, formato de salida, método de producción y biblioteca de implantes se confirman antes de programar el trabajo.</span>
-          </article>
-          <article>
-            <strong>Plazo de entrega</strong>
-            <span>El plazo para CAD rutinario se confirma tras revisar los archivos. Los casos complejos se programan después de acordar registros y fases necesarias.</span>
-          </article>
-          <article>
-            <strong>Límite de revisión</strong>
-            <span>Se incluye una ronda de revisión técnica cuando los registros e instrucciones originales no cambian.</span>
-          </article>
-          <article>
-            <strong>Cambios de alcance</strong>
-            <span>Nuevos escaneos, una nueva posición de mordida, cambios en el plan de implantes, nueva dirección terapéutica o entregables añadidos se tratan como actualización de alcance.</span>
-          </article>
-          <article>
-            <strong>Control profesional</strong>
-            <span>Su equipo revisa los archivos CAD antes de fabricar; las decisiones clínicas permanecen con el clínico tratante.</span>
-          </article>
-          <article>
-            <strong>Privacidad de datos clínicos</strong>
-            <span>Los materiales del caso deben anonimizarse siempre que sea posible, retirando datos identificativos antes de compartirlos.</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="section data-security" aria-labelledby="data-security-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">Datos y transferencia de casos</div>
-            <h2 id="data-security-title">Gestión profesional de archivos antes del primer caso.</h2>
-          </div>
-          <p>
-            Los registros dentales complejos son sensibles. Mantenemos separados el pago, los archivos clínicos y el alcance del proyecto para que laboratorios y clínicas colaboren sin exponer información innecesaria del paciente.
-          </p>
-        </div>
-        <div class="data-grid">
-          <article>
-            <strong>Registros anonimizados</strong>
-            <span>Retire nombres de pacientes, fechas de nacimiento, números de acceso y fechas de caso siempre que sea posible antes de enviar registros clínicos.</span>
-          </article>
-          <article>
-            <strong>Ruta de transferencia acordada</strong>
-            <span>Los archivos del caso se intercambian mediante un enlace de carga acordado o un canal seguro, no en notas de pago.</span>
-          </article>
-          <article>
-            <strong>Confirmación de alcance</strong>
-            <span>Confirmamos entregables, formatos de archivo, bibliotecas, plazo y límite de revisión antes de iniciar CAD o planificación.</span>
-          </article>
-          <article>
-            <strong>Colaboración recurrente</strong>
-            <span>Para trabajo regular, las expectativas de confidencialidad y tratamiento de datos pueden confirmarse antes de ampliar la colaboración.</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="section partner-portal" id="casehub" aria-labelledby="casehub-title">
-        <div class="partner-portal-copy">
-          <div class="section-kicker">MW CaseHub beta privada</div>
-          <h2 id="casehub-title">Un hub dedicado para comunicación de casos con partners invitados.</h2>
-          <p>
-            CaseHub centraliza la entrada estructurada de casos, selección dental, subida de archivos, seguimiento de estado, conversación del caso y archivos de entrega en un espacio privado. Está pensado para registros clínicos anonimizados o minimizados siempre que sea posible, y la beta es por invitación mientras MW DenTech valida el flujo con laboratorios y clínicas seleccionados.
-          </p>
-          <div class="partner-portal-status" aria-label="Estado beta de CaseHub">
-            <span>Beta privada</span>
-            <span>Onboarding de labs partner</span>
-            <span>Flujo orientado a GDPR</span>
-          </div>
-          <div class="partner-portal-actions">
-            <a class="button primary" href="mailto:hello@mwdentech.com?subject=MW%20CaseHub%20solicitud%20de%20acceso%20partner&body=Nombre%20de%20cl%C3%ADnica%20%2F%20laboratorio%3A%0APa%C3%ADs%3A%0APersona%20de%20contacto%3A%0ATipos%20de%20casos%20recurrentes%3A%0AVolumen%20mensual%20estimado%3A%0AReferencia%20de%20caso%20MW%20DenTech%20%28si%20existe%29%3A">Solicitar acceso partner</a>
-            <a class="button secondary on-light" href="https://casehub.mwdentech.com/login">Login partner</a>
-            <a class="button secondary on-light" href="#order">Iniciar primer caso</a>
-          </div>
-        </div>
-        <div class="partner-portal-grid" aria-label="Funciones del espacio partner MW CaseHub">
-          <article>
-            <span>01</span>
-            <strong>Entrada de caso estructurada</strong>
-            <p>Recoge código de caso, resumen de prescripción, dientes seleccionados, plazo, urgencia y primeros archivos antes de la revisión de alcance.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <strong>Conversación compartida</strong>
-            <p>Mantiene preguntas del partner, notas de MW, entregas y feedback de revisión conectados a la misma referencia de caso.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <strong>Acceso beta controlado</strong>
-            <p>El acceso se introduce selectivamente después de revisar el primer caso y acordar expectativas de transferencia de datos.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section advantage" aria-labelledby="advantage-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">Por qué MW DenTech</div>
-            <h2 id="advantage-title">CAD rutinario competitivo, capacidad protegida para planificación compleja.</h2>
-          </div>
-          <p>
-            El trabajo de diseño rutinario está pensado para colaboración recurrente. La planificación avanzada se presupuesta primero para que la revisión de imagen, la secuenciación, la verificación y las fases provisionales se definan con el cuidado que requieren.
-          </p>
-        </div>
-        <div class="advantage-grid">
-          <article>
-            <strong>Eficiencia con precio publicado</strong>
-            <span>Precio de entrada más bajo para CAD repetible de coronas, puentes, carillas, coronas sobre implante, guías y aparatos cuando los registros y el método de producción ya están definidos.</span>
-          </article>
-          <article>
-            <strong>Profundidad en planificación avanzada</strong>
-            <span>En casos seleccionados, la planificación compleja puede integrar MRI, CBCT, escaneos intraorales, simulación mandibular, verificación con localizador y planificación de provisional a definitivo cuando esté incluido en el alcance.</span>
-          </article>
-          <article>
-            <strong>Gestión desde Barcelona</strong>
-            <span>Operación en Barcelona, España, con precios en EUR, confirmación escrita del alcance, instrucciones de pago claras y expectativas disciplinadas de transferencia de casos.</span>
-          </article>
-          <article>
-            <strong>Límites liderados por el clínico</strong>
-            <span>El diagnóstico, la selección terapéutica y la evaluación de resultados permanecen con el clínico; MW DenTech apoya el diseño digital, referencias de planificación y coordinación técnica.</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="section case-evidence" id="evidence" aria-labelledby="evidence-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">Referencias de caso</div>
-            <h2 id="evidence-title">Mini referencias de caso para conversaciones de planificación compleja.</h2>
-          </div>
-          <p>
-            Estos ejemplos anonimizados muestran el tipo de registros, resultados de planificación y límites clínicos usados cuando un caso supera el CAD con precio publicado.
-          </p>
-        </div>
-
-        <div class="case-evidence-grid">
-          <article class="case-card case-card-axisguide">
-            <div class="case-panel-strip" role="group" aria-label="Paneles de referencia de caso de planificación funcional AxisGuide">
-              <figure class="case-panel">
-                <img src="../assets/axisguide-mini-mri-verification.jpg" alt="Referencia anonimizada de verificación MRI de ATM antes y después">
-                <figcaption>Verificación MRI</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <video autoplay loop muted playsinline preload="metadata" aria-label="Simulación mandibular digital que muestra la transferencia de la posición mandibular propuesta">
-                  <source src="../assets/axisguide-mini-mandibular-simulation.m4v" type="video/mp4">
-                </video>
-                <figcaption>Simulación mandibular</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <img src="../assets/axisguide-mini-position-carrier.jpg" alt="Portador de posición diseñado en CAD para verificación con localizador">
-                <figcaption>Portador de posición</figcaption>
-              </figure>
-            </div>
-            <div class="case-card-body">
-              <span>AxisGuide</span>
-              <h3>Referencia de planificación funcional ATM</h3>
-              <dl>
-                <div><dt>Tipo de caso</dt><dd>Planificación full-mouth sensible a la ATM donde la posición mandibular inicial requiere revisión.</dd></div>
-                <div><dt>Registros usados</dt><dd>MRI de ATM, CBCT/DICOM, escaneos intraorales, síntomas, registros de posición actual y objetivo de rehabilitación.</dd></div>
-                <div><dt>Resultado de planificación</dt><dd>Referencia vectorial MRI, simulación mandibular, CAD de localizador y referencias de verificación lideradas por el clínico.</dd></div>
-                <div><dt>Límite clínico</dt><dd>El diagnóstico, la selección terapéutica y la evaluación de resultados permanecen con el clínico tratante.</dd></div>
-              </dl>
-              <a class="case-link" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20-%20consulta%20de%20caso%20similar%20AxisGuide&body=Nombre%20de%20cl%C3%ADnica%20%2F%20laboratorio%3A%0APa%C3%ADs%3A%0ATipo%20de%20caso%20similar%3A%20planificaci%C3%B3n%20funcional%20AxisGuide%0ARegistros%20disponibles%20(MRI%20%2F%20CBCT-DICOM%20%2F%20STL%20%2F%20fotos%20%2F%20registros%20de%20mordida)%3A%0AObjetivo%20del%20caso%3A%0AEntregables%20solicitados%3A%0APlazo%3A">Comentar un caso similar</a>
-            </div>
-          </article>
-
-          <article class="case-card case-card-fullmouth">
-            <div class="case-panel-strip" role="group" aria-label="Paneles de referencia de rehabilitación oclusal full-mouth">
-              <figure class="case-panel">
-                <img src="../assets/full-mouth-initial-condition.jpg" alt="Referencia de dentición desgastada inicial y dimensión vertical reducida">
-                <figcaption>Condición inicial</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <img src="../assets/full-mouth-occlusal-planning.jpg" alt="Referencia digital de planificación de contactos oclusales full-mouth">
-                <figcaption>Planificación CAD oclusal</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <img src="../assets/full-mouth-restorative-verification.jpg" alt="Verificación restauradora provisional o final tras planificación oclusal full-mouth">
-                <figcaption>Verificación restauradora</figcaption>
-              </figure>
-            </div>
-            <div class="case-card-body">
-              <span>Full-mouth</span>
-              <h3>Referencia de rehabilitación oclusal</h3>
-              <dl>
-                <div><dt>Tipo de caso</dt><dd>Dentición desgastada, cambio de VDO o registros oclusales inestables que requieren coordinación de provisional a definitivo.</dd></div>
-                <div><dt>Registros usados</dt><dd>Escaneos intraorales, registros de mordida, fotos, plan restaurador, objetivos de VDO o plano oclusal y referencias provisionales cuando estén disponibles.</dd></div>
-                <div><dt>Resultado de planificación</dt><dd>Wax-up aditivo, referencias CAD provisionales, revisión de contactos MIP y coordinación CAD restauradora final.</dd></div>
-                <div><dt>Límite clínico</dt><dd>El esquema oclusal y la secuencia de tratamiento los confirma el equipo clínico antes de producción.</dd></div>
-              </dl>
-              <a class="case-link" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20-%20consulta%20de%20caso%20similar%20full-mouth&body=Nombre%20de%20cl%C3%ADnica%20%2F%20laboratorio%3A%0APa%C3%ADs%3A%0ATipo%20de%20caso%20similar%3A%20rehabilitaci%C3%B3n%20oclusal%20full-mouth%0ARegistros%20disponibles%20(STL%20%2F%20PLY%20%2F%20OBJ%20%2F%20fotos%20%2F%20registros%20de%20mordida)%3A%0AObjetivo%20de%20VDO%20u%20oclusi%C3%B3n%3A%0AEntregables%20solicitados%3A%0APlazo%3A">Comentar un caso similar</a>
-            </div>
-          </article>
-
-          <article class="case-card case-card-fullarch">
-            <div class="case-panel-strip" role="group" aria-label="Paneles de referencia de caso de rehabilitación full-arch sobre implantes">
-              <figure class="case-panel">
-                <img src="../assets/full-arch-evidence-cbct-position-reference.jpg" alt="Referencia CBCT de posición implantaria para planificación full-arch sobre implantes">
-                <figcaption>Referencia de posición implantaria</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <img src="../assets/full-arch-evidence-guide-prosthetic-planning.jpg" alt="Referencia CAD de setup protésico full-arch sobre implantes">
-                <figcaption>Setup protésico</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <img src="../assets/full-arch-evidence-provisional-framework.jpg" alt="Referencia de prótesis full-arch final y estructura">
-                <figcaption>Prótesis final + estructura</figcaption>
-              </figure>
-            </div>
-            <div class="case-card-body">
-              <span>Full-arch</span>
-              <h3>Referencia de flujo full-arch sobre implantes</h3>
-              <dl>
-                <div><dt>Tipo de caso</dt><dd>Flujo All-on-X o dentición terminal que requiere referencia de posición implantaria, setup protésico y coordinación de estructura/prótesis final.</dd></div>
-                <div><dt>Registros usados</dt><dd>CBCT/DICOM, plan de implantes o posiciones propuestas, escaneos, registros de scanbody o MUA y objetivos protésicos.</dd></div>
-                <div><dt>Resultado de planificación</dt><dd>Referencia CBCT de posición implantaria, planificación del setup protésico, soporte de estructura y coordinación de prótesis full-arch final.</dd></div>
-                <div><dt>Límite clínico</dt><dd>Las decisiones de colocación de implantes, ejecución quirúrgica y aprobación protésica permanecen con el equipo tratante.</dd></div>
-              </dl>
-              <a class="case-link" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20-%20consulta%20de%20caso%20similar%20full-arch&body=Nombre%20de%20cl%C3%ADnica%20%2F%20laboratorio%3A%0APa%C3%ADs%3A%0ATipo%20de%20caso%20similar%3A%20rehabilitaci%C3%B3n%20implanto-soportada%20full-arch%0ARegistros%20disponibles%20(CBCT-DICOM%20%2F%20plan%20de%20implantes%20%2F%20STL%20%2F%20scanbody%20o%20registros%20MUA)%3A%0AObjetivo%20prot%C3%A9sico%3A%0AEntregables%20solicitados%3A%0APlazo%3A">Comentar un caso similar</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="sample-deliverables" aria-label="Ejemplos de entregables">
-          <strong>Ejemplos de entregables</strong>
-          <span>Archivos CAD</span>
-          <span>Capturas de planificación</span>
-          <span>Checklist por fases</span>
-          <span>Referencias de verificación</span>
-          <span>Nota de alcance para presupuesto</span>
-        </div>
-      </section>
-
-      <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">Precios para partners profesionales</div>
-            <h2 id="pricing-title">Precio publicado para CAD rutinario, presupuestos por alcance para flujos complejos.</h2>
-          </div>
-          <p>
-            Los precios "desde" ayudan a probar trabajo CAD repetible. Los precios publicados en EUR son honorarios profesionales netos y no incluyen IVA salvo que se indique lo contrario. Los servicios con presupuesto previo se definen individualmente cuando la secuenciación, revisión de imagen o planificación provisional por fases afecta la carga de trabajo.
-          </p>
-        </div>
-        <p class="pricing-vat-note">
-          Nota sobre IVA: se aplica IVA español cuando corresponda, con tipo general actualmente del 21%. Los clientes B2B de la UE elegibles pueden facturarse con inversión del sujeto pasivo cuando se confirmen datos de IVA válidos; otros impuestos aplicables se gestionan según la ubicación del cliente y la situación de facturación.
-        </p>
-        <div class="pricing-grid">
-          <article class="pricing-card">
-            <span>Diseño principal</span>
-            <h3>CAD restaurador y estético</h3>
-            <dl>
-              <div><dt>CAD restaurador unitario</dt><dd>desde EUR 10 / unidad</dd></div>
-              <div><dt>CAD corona y puente multiunidad</dt><dd>desde EUR 10 / unidad</dd></div>
-              <div><dt>Carilla / wax-up estético</dt><dd>desde EUR 14 / unidad</dd></div>
-              <div><dt>Paquete de diseño de sonrisa</dt><dd>presupuesto por caso</dd></div>
-            </dl>
-          </article>
-          <article class="pricing-card">
-            <span>Implante y función</span>
-            <h3>Implantes, guías y férulas</h3>
-            <dl>
-              <div><dt>CAD de corona sobre implante</dt><dd>desde EUR 24 / unidad</dd></div>
-              <div><dt>CAD de pilar personalizado con perfil de emergencia</dt><dd>desde EUR 32 / unidad</dd></div>
-              <div><dt>CAD de guía para implante unitario</dt><dd>desde EUR 50 / caso</dd></div>
-              <div><dt>Sitio adicional en la misma guía</dt><dd>+EUR 10 / sitio</dd></div>
-              <div><dt>CAD de guía parcial / compleja</dt><dd>presupuesto por caso</dd></div>
-              <div><dt>CAD de férula / desprogramador</dt><dd>desde EUR 39 / caso</dd></div>
-              <div><dt>Planificación funcional AxisGuide</dt><dd>presupuesto por caso</dd></div>
-              <div><dt>CAD de otros aparatos</dt><dd>presupuesto por caso</dd></div>
-            </dl>
-          </article>
-          <article class="pricing-card">
-            <span>Rehabilitación compleja</span>
-            <h3>Flujos full-mouth y full-arch</h3>
-            <dl>
-              <div><dt>Planificación y secuenciación oclusal full-mouth</dt><dd>presupuesto por caso</dd></div>
-              <div><dt>VDO / wax-up de dentición desgastada y CAD provisional</dt><dd>presupuesto por caso</dd></div>
-              <div><dt>Planificación de guía full-arch y pines de fijación</dt><dd>desde EUR 180 / arcada</dd></div>
-              <div><dt>Diseño de provisional de carga inmediata</dt><dd>desde EUR 220 / arcada</dd></div>
-              <div><dt>Diseño de prótesis full-arch final</dt><dd>desde EUR 220 / arcada</dd></div>
-              <div><dt>Soporte completo de flujo full-arch</dt><dd>presupuesto por caso</dd></div>
-              <div><dt>Urgencias o fines de semana</dt><dd>+30-80%</dd></div>
-            </dl>
-          </article>
-        </div>
-        <p class="pricing-note">
-          Basado en la economía real del CAD dental. Los precios se refieren solo al diseño CAD y soporte de planificación; impresión, fabricación, componentes, envío, aranceles, IVA y otros impuestos no están incluidos salvo que se indiquen en el presupuesto escrito o en la factura. Los precios por volumen están disponibles después de comprobar volumen recurrente, calidad de archivos y patrones de revisión.
-        </p>
-      </section>
-
-      <section class="section order-system" id="order" aria-labelledby="order-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">Iniciar un caso</div>
-            <h2 id="order-title">Solicite servicios CAD con precio publicado o pida un presupuesto por alcance para casos complejos.</h2>
-          </div>
-          <p>
-            El CAD con precio publicado puede valorarse desde el menú tras revisar archivos. AxisGuide, full-mouth y full-arch se definen primero porque los registros, la secuenciación y los pasos de verificación determinan la carga real de trabajo.
-          </p>
-        </div>
-
-        <div class="order-flow">
-          <article>
-            <span>01</span>
-            <h3>Elegir alcance</h3>
-            <p>Seleccione un servicio CAD con precio publicado o identifique el caso como AxisGuide, rehabilitación full-mouth o full-arch.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Confirmar registros</h3>
-            <p>Revisamos calidad de archivos, bibliotecas, registros de mordida, imagen, método de producción y ruta de transferencia antes de programar el trabajo.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Aprobar alcance</h3>
-            <p>Los servicios CAD con precio publicado reciben instrucciones de pago y facturación tras confirmar alcance; los casos complejos reciben presupuesto escrito o solicitud de depósito.</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>Revisar entregables</h3>
-            <p>Su equipo revisa los archivos CAD o de planificación antes de fabricar o avanzar a la siguiente fase clínica.</p>
-          </article>
-        </div>
-
-        <div class="order-columns">
-          <article class="order-panel">
-            <div class="order-panel-heading">
-              <span>Precio publicado</span>
-              <h3>Servicios CAD con precio publicado</h3>
-              <p>Ideal para trabajo repetible donde registros, posición de mordida, bibliotecas de implantes y método de producción ya están claros.</p>
-            </div>
-            <div class="scope-list" aria-label="Categorías de servicios CAD con precio publicado">
-              <span>CAD restaurador</span>
-              <span>Carilla / wax-up estético</span>
-              <span>CAD de corona sobre implante</span>
-              <span>CAD de pilar personalizado</span>
-              <span>CAD de guía para implante unitario</span>
-              <span>CAD de férula / desprogramador</span>
-            </div>
-            <p class="order-panel-note">Valorado desde el menú neto publicado tras revisar archivos y confirmar alcance.</p>
-            <a class="button primary" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20-%20solicitud%20de%20alcance%20para%20CAD%20con%20precio%20publicado&body=Nombre%20de%20cl%C3%ADnica%20%2F%20laboratorio%3A%0APa%C3%ADs%3A%0AServicio%20CAD%20con%20precio%20publicado%3A%0AUnidades%20%2F%20arcadas%20%2F%20casos%3A%0AArchivos%20disponibles%3A%0AFormato%20de%20entrega%20preferido%3A%0AM%C3%A9todo%20de%20producci%C3%B3n%3A%0APlazo%20solicitado%3A">Solicitar presupuesto de menú</a>
-          </article>
-
-          <article class="order-panel quoted-panel">
-            <div class="order-panel-heading">
-              <span>Presupuesto primero</span>
-              <h3>Flujos de planificación compleja</h3>
-              <p>Ideal para casos donde secuenciación, revisión de imagen, estrategia provisional o coordinación multidisciplinar afectan el alcance.</p>
-            </div>
-            <div class="scope-list dark" aria-label="Categorías de flujos de planificación compleja">
-              <span>Planificación funcional AxisGuide</span>
-              <span>Secuenciación oclusal full-mouth</span>
-              <span>Rehabilitación VDO / dentición desgastada</span>
-              <span>Casos de guía parcial o compleja</span>
-              <span>Flujo full-arch / All-on-X sobre implantes</span>
-            </div>
-            <p class="order-panel-note">Definido individualmente antes de presupuesto escrito, depósito o instrucciones de pago por fases.</p>
-            <a class="button secondary dark" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20-%20solicitud%20de%20presupuesto%20para%20caso%20complejo&body=Nombre%20de%20cl%C3%ADnica%20%2F%20laboratorio%3A%0APa%C3%ADs%3A%0AFlujo%20solicitado%20(AxisGuide%20%2F%20full-mouth%20%2F%20full-arch)%3A%0AObjetivo%20del%20caso%3A%0ARegistros%20disponibles%20(STL%20%2F%20PLY%20%2F%20OBJ%20%2F%20CBCT-DICOM%20%2F%20MRI%20%2F%20fotos%20%2F%20registros%20de%20mordida)%3A%0AObjetivo%20cl%C3%ADnico%20o%20de%20rehabilitaci%C3%B3n%3A%0AEntregables%20solicitados%3A%0APlazo%3A">Enviar para presupuesto</a>
-          </article>
-        </div>
-
-        <div class="intake-matrix" aria-label="Enrutamiento de recepción de casos">
-          <article>
-            <span>CAD con precio publicado</span>
-            <h3>Úselo cuando el objetivo de diseño ya está claro.</h3>
-            <p>Envíe escaneos intraorales, registros de mordida cuando sean relevantes, formato de salida, sistema CAD/CAM, material o método de producción y plazo solicitado.</p>
-          </article>
-          <article>
-            <span>Planificación funcional o full-mouth</span>
-            <h3>Úselo cuando la mordida o las fases necesitan revisión.</h3>
-            <p>Envíe escaneos, fotos, registros de mordida o relación mandibular, referencias provisionales o wax-up, objetivos VDO u oclusales y MRI/CBCT cuando estén incluidos en el alcance.</p>
-          </article>
-          <article>
-            <span>Flujo full-arch sobre implantes</span>
-            <h3>Úselo cuando se conectan guía, provisional y prótesis.</h3>
-            <p>Envíe CBCT/DICOM, plan de implantes o posiciones propuestas, registros de scanbody o MUA, requisitos de fijación, objetivo de provisional inmediato y objetivo de prótesis final.</p>
-          </article>
-        </div>
-
-        <div class="deliverable-grid" aria-label="Entregables esperados">
-          <article>
-            <h3>Entregables CAD rutinarios</h3>
+          <div class="send-list">
+            <h3>Qué enviar</h3>
             <ul>
-              <li>Archivos CAD listos para revisión en el formato de salida acordado</li>
-              <li>Método de producción, supuestos de material y bibliotecas revisados antes del diseño</li>
-              <li>Una ronda de revisión técnica cuando los registros originales no cambian</li>
+              <li>El escaneado (STL / PLY / OBJ) o tu propio archivo de diseño</li>
+              <li>Material y color</li>
+              <li>Sistema de implante y Ti-base, si procede</li>
+              <li>La fecha en que lo necesitas</li>
             </ul>
-          </article>
-          <article>
-            <h3>Entregables de implantes, guías y aparatos</h3>
-            <ul>
-              <li>Biblioteca, casquillo, scanbody, Ti-base o protocolo del aparato confirmados antes del diseño</li>
-              <li>Archivos listos para producción según el flujo CAD/CAM confirmado</li>
-              <li>Nota de alcance para componentes, impresión, fabricación o envío no incluidos</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Entregables de flujos complejos</h3>
-            <ul>
-              <li>Revisión de preparación de registros y brief de planificación por fases</li>
-              <li>Simulación, verificación o referencias provisionales cuando estén incluidas en el presupuesto</li>
-              <li>Nota de alcance que separa el soporte de planificación digital del diagnóstico, decisiones terapéuticas y ejecución clínica liderados por el clínico</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="payment-note">
-          <strong>Pago y transferencia de archivos</strong>
-          <span>El método de pago y los datos de facturación se confirman tras revisar el alcance. El CAD con precio publicado puede liquidarse por transferencia bancaria, factura o enlace de pago seguro según la configuración confirmada. Los casos complejos se presupuestan primero, con instrucciones de depósito o saldo según las fases acordadas. El IVA o la inversión del sujeto pasivo se gestionan en la factura según la ubicación del cliente y su situación fiscal. Los archivos de caso se intercambian mediante enlace de carga acordado o canal seguro; los datos identificativos del paciente no deben introducirse en notas de pago.</span>
-        </div>
-
-        <div class="contact-strip" aria-label="Contacto directo">
-          <strong>Contacto directo</strong>
-          <a href="mailto:hello@mwdentech.com">hello@mwdentech.com</a>
-          <a href="tel:+34686239089">+34 686 239 089</a>
-        </div>
-      </section>
-
-      <section class="section pilot" aria-labelledby="pilot-title">
-        <div class="pilot-copy">
-          <div class="section-kicker">Colaboración piloto</div>
-          <h2 id="pilot-title">Empiece con un caso de prueba de pago.</h2>
-          <p>
-            Envíe primero un caso representativo. Confirmamos si encaja en precio publicado o necesita presupuesto por alcance antes de iniciar el diseño.
-          </p>
-        </div>
-        <div class="pilot-panel" aria-label="Checklist de caso piloto">
-          <strong>Enviar para el primer caso</strong>
-          <ul>
-            <li>Código de caso de clínica o laboratorio, país, servicio solicitado y tipo de caso</li>
-            <li>Escaneos intraorales STL / PLY / OBJ, registros de mordida, registros de relación mandibular y fotos de referencia cuando sean relevantes</li>
-            <li>Sistema CAD/CAM preferido, formato de salida y método de producción</li>
-            <li>Sistema de implantes, scanbody, Ti-base, biblioteca o protocolo de diseño cuando sea relevante</li>
-            <li>Para casos AxisGuide: MRI de ATM, CBCT/DICOM, escaneos intraorales, notas de síntomas, registros actuales de posición mandibular y objetivo de rehabilitación</li>
-            <li>Para rehabilitación full-mouth: cambio de VDO, objetivos de plano oclusal, plan restaurador y referencias de wax-up o provisional existentes cuando estén disponibles</li>
-            <li>Para rehabilitación full-arch sobre implantes: CBCT/DICOM, plan de implantes o posiciones propuestas, registros de scanbody o pilar multi-unit, objetivo de provisional inmediato y registros de verificación cuando estén disponibles</li>
-            <li>Plazo solicitado y expectativas de revisión</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section faq" aria-labelledby="faq-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">Preguntas frecuentes</div>
-            <h2 id="faq-title">Cómo se define la colaboración.</h2>
+            <p class="contact"><a href="mailto:hello@mwdentech.com">hello@mwdentech.com</a></p>
           </div>
-          <p>
-            Respuestas breves para laboratorios y clínicos antes de enviar el primer caso.
-          </p>
-        </div>
-        <div class="faq-grid">
-          <details>
-            <summary>¿Fabrican restauraciones o solo diseñan?</summary>
-            <p>MW DenTech proporciona diseño CAD y soporte de planificación. Los precios son honorarios netos de CAD/diseño; impresión, fresado, componentes, envío, aranceles, IVA y otros impuestos no están incluidos salvo acuerdo separado reflejado en el presupuesto escrito o la factura.</p>
-          </details>
-          <details>
-            <summary>¿Qué es CAD con precio publicado?</summary>
-            <p>Es CAD rutinario con una categoría de servicio clara, registros utilizables, posición de mordida prescrita, método de producción conocido y entregables previsibles.</p>
-          </details>
-          <details>
-            <summary>¿Por qué los flujos complejos se presupuestan primero?</summary>
-            <p>Los casos complejos dependen de secuenciación, revisión de imagen, estrategia provisional, registros de verificación y coordinación interdisciplinar, por lo que el alcance debe confirmarse antes del precio.</p>
-          </details>
-          <details>
-            <summary>¿Qué incluye una ronda de revisión técnica?</summary>
-            <p>Se incluye una revisión técnica cuando los registros e instrucciones originales no cambian. Nuevos registros, nueva posición de mordida, cambio en el plan de implantes, cambio de dirección terapéutica o entregables añadidos se tratan como actualización de alcance.</p>
-          </details>
-          <details>
-            <summary>¿Cómo deben compartirse los registros clínicos?</summary>
-            <p>Use un enlace de carga acordado o un canal seguro. Retire información identificativa del paciente siempre que sea posible y mantenga las notas de pago libres de detalles clínicos.</p>
-          </details>
-          <details>
-            <summary>¿Dónde encaja AxisGuide?</summary>
-            <p>AxisGuide está disponible para casos seleccionados de rehabilitación sensibles a la ATM y liderados por el clínico. Proporciona una vía estructurada informada por imagen para planificar, probar y verificar una posición mandibular propuesta antes de una reconstrucción oclusal por fases.</p>
-          </details>
         </div>
       </section>
 
+      <section class="section" aria-labelledby="faq-title">
+        <div class="wrap faq-grid">
+          <h2 class="h2" id="faq-title">Respuestas breves.</h2>
+          <div class="faq-list">
+            <details>
+              <summary>¿Qué incluye el precio?</summary>
+              <p>Diseño, fresado, maquillaje y glaseado. Las Ti-base, el envío, los aranceles y los impuestos aparecen por separado en el presupuesto.</p>
+            </details>
+            <details>
+              <summary>¿Dónde se fabrican las restauraciones?</summary>
+              <p>Se fabrican en China. La restauración sale con el nombre de tu laboratorio.</p>
+            </details>
+            <details>
+              <summary>¿Hacéis solo diseño?</summary>
+              <p>Sí. El trabajo de solo diseño (METALAB) está disponible bajo petición.</p>
+            </details>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="site-footer">
-      <span>M&amp;W METALAB · MW DenTech</span>
-      <span>Operado por LUME CONNECT, S.L.</span>
-      <span><a href="mailto:hello@mwdentech.com">hello@mwdentech.com</a> · <a href="tel:+34686239089">+34 686 239 089</a></span>
-      <span>Ronda Sant Pere 48, Barcelona, Spain</span>
-      <span>Soporte de diseño por M&amp;W METALAB</span>
+    <footer class="site-footer on-dark">
+      <div class="wrap footer-grid">
+        <div class="footer-brand">
+          <img src="../assets/home/mw-mark-white.svg" alt="" width="40" height="24">
+          <div>
+            <strong>MW DenTech</strong>
+            <span class="muted">Diseño y producción para laboratorios dentales</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <a href="mailto:hello@mwdentech.com">hello@mwdentech.com</a>
+          <a href="tel:+8613520990993">+86 135 2099 0993</a>
+        </div>
+        <div class="footer-col">
+          <a href="https://casehub.mwdentech.com/login">Acceso a CaseHub</a>
+          <span class="muted">Soporte de diseño: M&amp;W METALAB</span>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
