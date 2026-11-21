@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 390" role="img" aria-labelledby="title desc">
+  <title id="title">MW DenTech</title>
+  <desc id="desc">MW DenTech occlusion mark logo</desc>
+  <rect width="512" height="390" fill="none"/>
+  <g fill="#1F1C17">
+    <path
+      d="M102 14 C128 66 149 109 176 123 C201 136 220 124 240 96 C257 72 273 60 292 60 C315 60 334 84 354 112 C374 140 397 132 416 102 L486 14 L430 126 C404 159 368 164 339 129 C323 109 309 95 292 94 C276 94 263 106 248 126 C224 158 192 162 164 139 C139 119 121 75 102 14 Z"
+    />
+    <path
+      d="M8 279 L74 169 C99 129 136 124 165 153 C182 170 194 181 208 181 C223 181 235 169 252 151 C280 119 322 126 349 160 C367 184 380 219 393 279 L329 190 C313 171 294 163 277 177 C258 193 241 212 207 213 C178 213 157 196 138 177 C118 158 97 163 76 190 Z"
+    />
+    <text x="40" y="354" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="44" font-weight="900" letter-spacing="-1">MW</text>
+  </g>
+  <g fill="#6F6A5F">
+    <text x="150" y="354" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="400" letter-spacing="7">DENTECH</text>
+  </g>
+</svg>

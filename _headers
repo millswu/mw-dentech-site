@@ -11,3 +11,6 @@
 
 /styles.css
   Cache-Control: public, max-age=300
+
+/home.css
+  Cache-Control: public, max-age=300

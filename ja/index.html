@@ -3,11 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MW DenTech | デジタル歯科設計パートナー</title>
-    <meta
-      name="description"
-      content="MW DenTech は、歯科技工所とデジタル対応クリニックに、メニュー価格の CAD サービス、カスタムアバットメント設計、インプラントガイド、スプリント、範囲を定義した複雑なリハビリ計画支援を提供します。"
-    >    <link rel="alternate" hreflang="en" href="../index.html">
+    <title>MW DenTech | 歯科技工所のための設計と製作</title>
+    <meta name="description" content="MW DenTech は歯科技工所向けに補綴物を設計・製作します。ジルコニアと二ケイ酸リチウムのクラウン、ベニア、インプラントクラウン、スプリントを設計込みの1ユニット単価で提供し、フルマウス・フルアーチ症例の計画にも対応します。">
+    <link rel="alternate" hreflang="en" href="../index.html">
     <link rel="alternate" hreflang="es" href="../es/index.html">
     <link rel="alternate" hreflang="de" href="../de/index.html">
     <link rel="alternate" hreflang="fr" href="../fr/index.html">
@@ -16,697 +14,248 @@
     <link rel="alternate" hreflang="zh-Hans" href="../zh/index.html">
     <link rel="alternate" hreflang="ja" href="../ja/index.html">
     <link rel="alternate" hreflang="x-default" href="../index.html">
-    <link rel="icon" href="assets/mw-metalab-logo.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="../styles.css?v=20260612-eu-languages">
+    <link rel="icon" href="../assets/mw-dentech-logo.svg" type="image/svg+xml">
+    <link rel="preload" href="../assets/fonts/fira-sans-light.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../assets/fonts/fira-sans-regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="stylesheet" href="../home.css?v=20261121">
   </head>
   <body>
-    <header class="site-header" aria-label="Main navigation">
-      <a class="brand" href="#top" aria-label="M&amp;W METALAB home">
-        <img class="brand-logo" src="../assets/mw-metalab-logo.svg" alt="M&amp;W METALAB">
-        <span>
-          <strong>MW DenTech</strong>
-          <small>スペイン・バルセロナ</small>
-        </span>
-      </a>
-      <div class="header-actions">
-        <nav>
-          <a href="#services">サービス</a>
-          <a href="#workflow">ワークフロー</a>
-          <a href="#standards">基準</a>
-          <a href="#casehub">CaseHub</a>
-          <a href="#pricing">料金</a>
-          <a href="#order">開始</a>
-        </nav>        <details class="language-menu">
-          <summary aria-label="言語を選択">
-            <svg class="language-icon" aria-hidden="true" viewBox="0 0 24 24" focusable="false">
-              <circle cx="12" cy="12" r="9"></circle>
-              <path d="M3 12h18"></path>
-              <path d="M12 3a13.5 13.5 0 0 1 0 18"></path>
-              <path d="M12 3a13.5 13.5 0 0 0 0 18"></path>
-            </svg>
-            <span>JA</span>
-            <span class="language-chevron" aria-hidden="true"></span>
-          </summary>
-          <div class="language-menu-panel" role="list">
-            <a href="../index.html" hreflang="en" lang="en" role="listitem">English</a>
-            <a href="../es/index.html" hreflang="es" lang="es" role="listitem">Español</a>
-            <a href="../de/index.html" hreflang="de" lang="de" role="listitem">Deutsch</a>
-            <a href="../fr/index.html" hreflang="fr" lang="fr" role="listitem">Français</a>
-            <a href="../nl/index.html" hreflang="nl" lang="nl" role="listitem">Nederlands</a>
-            <a href="../it/index.html" hreflang="it" lang="it" role="listitem">Italiano</a>
-            <a href="../zh/index.html" hreflang="zh-Hans" lang="zh-Hans" role="listitem">中文</a>
-            <a class="is-current" href="../ja/index.html" aria-current="page" role="listitem">日本語</a>
-          </div>
-        </details>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#top" aria-label="MW DenTech ホーム">
+          <img src="../assets/home/mw-mark-ink.svg" alt="" width="46" height="28">
+          <span>
+            <strong>MW DenTech</strong>
+            <small>歯科技工所のための設計と製作</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="メインナビゲーション">
+          <a href="#products">製品と価格</a>
+          <a href="#complex">複雑な症例</a>
+          <a href="#workflow">流れ</a>
+        </nav>
+        <div class="header-tools">
+          <details class="language-menu">
+            <summary aria-label="言語を選択">
+              <svg class="language-icon" aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M3 12h18"></path>
+                <path d="M12 3a13.5 13.5 0 0 1 0 18"></path>
+                <path d="M12 3a13.5 13.5 0 0 0 0 18"></path>
+              </svg>
+              <span>JA</span>
+              <span class="language-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="language-menu-panel" role="list">
+              <a href="../index.html" hreflang="en" lang="en" role="listitem">English</a>
+              <a href="../es/index.html" hreflang="es" lang="es" role="listitem">Español</a>
+              <a href="../de/index.html" hreflang="de" lang="de" role="listitem">Deutsch</a>
+              <a href="../fr/index.html" hreflang="fr" lang="fr" role="listitem">Français</a>
+              <a href="../nl/index.html" hreflang="nl" lang="nl" role="listitem">Nederlands</a>
+              <a href="../it/index.html" hreflang="it" lang="it" role="listitem">Italiano</a>
+              <a href="../zh/index.html" hreflang="zh-Hans" lang="zh-Hans" role="listitem">中文</a>
+              <a class="is-current" href="../ja/index.html" aria-current="page" role="listitem">日本語</a>
+            </div>
+          </details>
+          <a class="btn btn-primary btn-small" href="#start">テスト症例を始める</a>
+        </div>
       </div>
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-media" aria-hidden="true"></div>
-        <div class="hero-copy">
-          <img class="hero-logo" src="../assets/mw-metalab-logo.svg" alt="M&amp;W METALAB">
-          <p class="eyebrow">ラボとクリニックのためのデジタル歯科設計</p>
-          <h1 id="hero-title">MW DenTech</h1>
-          <p class="hero-lede">
-            日常的なデジタル業務にはメニュー価格の CAD サービスを、複雑なリハビリ症例には範囲を定義した計画支援を提供します。
-          </p>
-          <div class="hero-proof" aria-label="Core positioning">
-            <span>国際的な設計パートナー</span>
-            <span>レビュー可能な CAD ファイル</span>
-            <span>パートナー向け CaseHub プライベートベータ</span>
+      <section class="hero on-dark" aria-labelledby="hero-title">
+        <div class="wrap">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <h1 class="h1" id="hero-title">歯科技工所のための設計と製作</h1>
+              <p class="lede muted">スキャンデータ、または御社の設計データをお送りください。設計、ミリング、ステイン、グレーズまで行い、完成した補綴物を御社の名前でお届けします。</p>
+              <div class="actions">
+                <a class="btn btn-primary" href="#start">テスト症例を始める</a>
+                <a class="btn btn-ghost" href="#products">価格を見る</a>
+              </div>
+            </div>
+            <figure class="hero-figure">
+              <img src="../assets/home/hero-crowns.jpg" width="1800" height="671" alt="3D プリント模型上のグレーズ済み前歯補綴物">
+            </figure>
           </div>
-          <div class="hero-actions">
-            <a class="button primary" href="#order">症例を開始</a>
-            <a class="button secondary" href="#services">サービスを見る</a>
-          </div>
+          <dl class="spec" aria-label="主な情報">
+            <div><dt>設計</dt><dd>込み</dd></div>
+            <div><dt>ジルコニアクラウン</dt><dd>€45から</dd></div>
+            <div><dt>製作</dt><dd>5–7営業日</dd></div>
+          </dl>
         </div>
       </section>
 
-      <section class="trust-band" aria-label="Positioning">
-        <div>
-          <strong>補綴 CAD</strong>
-          <span>管理された補綴ワークフローのためのクラウン、ブリッジ、インレー、オンレー、コーピング、ベニアワックスアップ。</span>
-        </div>
-        <div>
-          <strong>インプラント・スプリント設計</strong>
-          <span>サージカルガイド、カスタムアバットメント、インプラントクラウン、咬合スプリント、デプログラマー。</span>
-        </div>
-        <div>
-          <strong>リハビリワークフロー</strong>
-          <span>天然歯列の全顎リハビリ、咬耗歯列/VDO リハビリ、All-on-X を含むフルアーチインプラント支援。</span>
-        </div>
-      </section>
-
-      <section class="section intro" aria-labelledby="intro-title">
-        <div class="section-kicker">対象</div>
-        <h2 id="intro-title">複雑なデジタル症例に対応する規律ある CAD キャパシティ。</h2>
-        <p>
-          MW DenTech は、クラウン・ブリッジ、審美、インプラント、スプリント、全顎咬合リハビリ、フルアーチインプラントリハビリで外部設計支援を必要とする歯科技工所とデジタル対応クリニックを支援します。
-        </p>
-      </section>
-
-      <section class="section services" id="services" aria-labelledby="services-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">サービス</div>
-            <h2 id="services-title">メニュー価格 CAD サービスと複雑なリハビリワークフロー。</h2>
+      <section class="section" id="products" aria-labelledby="products-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 class="h2" id="products-title">完成補綴物、1ユニット単価、設計込み</h2>
+            <div class="notes">
+              <p>ユーロ建ての税抜価格です。VAT・輸入費用は含みません。送料は実費です。</p>
+              <p>中国で製作しています。製品は御社の名前で納品され、歯科医院とのお取引は御社のままです。</p>
+            </div>
           </div>
-          <p>
-            コア CAD 支援と戦略的リハビリワークフローを分けることで、日常設計症例と多段階再建症例を初期から明確に範囲定義できます。
-          </p>
-        </div>
-
-        <div class="service-tier">
-          <div class="service-tier-heading">
-            <span>コア CAD サービス</span>
-            <p>臨床位置と治療方針がすでに定義されている症例向けの、コンパクトで製作志向の CAD 支援。</p>
-          </div>
-          <div class="service-grid core-service-grid">
-            <article>
-              <img src="../assets/strengths-1.png" alt="Ceramic restorations arranged for professional review">
-              <h3>固定補綴 CAD</h3>
-              <p>単冠、ブリッジ、ベニア、インレー、オンレー、コーピング、および技術レビューと製作に向けた補綴 CAD ファイル。</p>
-            </article>
-            <article>
-              <img src="../assets/esthetic-1.png" alt="Smile design planning interface for esthetic cases">
-              <h3>審美スマイル設計</h3>
-              <p>スマイルデザイン、デジタルワックスアップ、前歯形態、テクスチャー、左右対称性、SmileCloud 対応の審美ワークフロー。</p>
-            </article>
-            <article>
-              <img src="../assets/restorative-case-2.png" alt="Implant crown restorative CAD output on model">
-              <h3>インプラント補綴 CAD</h3>
-              <p>カスタムアバットメント、インプラントクラウン、スクリュー固定補綴、エマージェンスプロファイル設計、インプラント補綴 CAD 支援。</p>
-            </article>
-            <article>
-              <img src="../assets/guide-partial-arch-card.jpg" alt="Single implant and partial-arch surgical guide CAD">
-              <h3>サージカルガイド</h3>
-              <p>単独インプラントガイド CAD と、追加埋入部位は範囲に応じて見積。インプラント計画とスリーブプロトコルが明確な場合は部分顎ガイド設計にも対応します。</p>
-            </article>
-            <article>
-              <img src="../assets/tmj-overview-1.png" alt="Digital deprogrammer and occlusal appliance CAD">
-              <h3>咬合スプリント・デプログラマー</h3>
-              <p>咬合位がすでに指示されている場合の、ミシガンスプリント、安定化スプリント、ナイトガード、デプログラマー、日常的な装置 CAD。</p>
-            </article>
-          </div>
-        </div>
-
-        <div class="service-tier workflow-tier">
-          <div class="service-tier-heading">
-            <span>複雑なリハビリワークフロー</span>
-            <p>シーケンス、検証、プロビジョナルから最終補綴までの調整が必要な症例に対する、症例別の戦略的計画支援。</p>
-          </div>
-          <div class="workflow-service-grid">
-            <article class="workflow-service-card">
-              <img class="axisguide-card-image" src="../assets/axisguide-service-skull-position-carrier.jpg" alt="CBCT skull and CAD position carrier for AxisGuide planning">
-              <span>AxisGuide</span>
-              <h3>機能的 TMJ・咬合リハビリ</h3>
-              <p>臨床医主導の TMJ 配慮型修復、矯正、全顎リハビリ症例に対する、MRI/CBCT/STL 情報に基づく選択型計画支援。</p>
-              <a class="case-link service-card-link" href="axisguide.html">AxisGuide を見る</a>
-            </article>
-            <article class="workflow-service-card">
-              <img class="full-mouth-card-image" src="../assets/full-mouth-occlusal-rehab-card-v2.jpg" alt="Natural dentition full-mouth occlusal rehabilitation CAD planning">
-              <span>全顎</span>
-              <h3>全顎咬合リハビリ</h3>
-              <p>咬耗歯列、VDO 変更、咬合平面補正、加算型ワックスアップ、プロビジョナル設計、最終補綴 CAD 調整に対応する包括的リハビリ。</p>
-            </article>
-            <article class="workflow-service-card">
-              <img class="full-arch-card-image" src="../assets/full-arch-implant-rehab-card-left-two.jpg" alt="フルアーチインプラントのプロビジョナル補綴とメタルフレームワーク">
-              <span>フルアーチ</span>
-              <h3>フルアーチインプラントリハビリ</h3>
-              <p>All-on-X と終末歯列ワークフロー。フルアーチインプラント計画、サージカルガイド設計、固定ピン計画、即時荷重プロビジョナル設計、検証ワークフロー、最終フルアーチ補綴支援を含みます。</p>
-            </article>
-          </div>
-        </div>
-
-      </section>
-
-      <section class="section workflow" id="workflow" aria-labelledby="workflow-title">
-        <div class="workflow-image">
-          <img class="workflow-preview-image" src="../assets/workflow-transparent-guide.jpg" alt="3D printed implant surgical guide prepared for CAD workflow review">
-        </div>
-        <div class="workflow-copy">
-          <div class="section-kicker">ワークフロー</div>
-          <h2 id="workflow-title">テスト症例と継続業務のための明確な設計ワークフロー。</h2>
-          <ol>
+          <ul class="catalog">
             <li>
-              <strong>症例を送付</strong>
-              <span>スキャン、咬合データ、症例タイプ、出力形式、参考画像、インプラントシステム情報を共有します。</span>
+              <figure><img src="../assets/home/p-crowns.jpg" width="640" height="480" alt="ジルコニアクラウン" loading="lazy"></figure>
+              <div class="about">
+                <h3 class="h3">クラウン・ブリッジ</h3>
+                <p>モノリシックジルコニア。当社チームが設計するか、御社の設計データから製作します。</p>
+              </div>
+              <ul class="prices">
+                <li><span>モノリシックジルコニア クラウン / ブリッジ（1ユニット）</span><b>€45</b></li>
+              </ul>
             </li>
             <li>
-              <strong>範囲確認</strong>
-              <span>作業開始前に、設計範囲、納期、価格、予定成果物を確認します。</span>
+              <figure><img src="../assets/home/p-anterior.jpg" width="640" height="480" alt="スマイル写真上の前歯補綴設計" loading="lazy"></figure>
+              <div class="about">
+                <h3 class="h3">前歯・ベニア</h3>
+                <p>個別ステインのジルコニア、二ケイ酸リチウム、IPS e.max。</p>
+              </div>
+              <ul class="prices">
+                <li><span>前歯ジルコニア（個別ステイン）</span><b>€50</b></li>
+                <li><span>二ケイ酸リチウム クラウン / ベニア</span><b>€50</b></li>
+                <li><span>IPS e.max クラウン / ベニア</span><b>€75</b></li>
+              </ul>
             </li>
             <li>
-              <strong>設計</strong>
-              <span>合意した症例要件と製作方法に従い、CAD ファイルを準備します。</span>
+              <figure><img src="../assets/home/p-implant.jpg" width="480" height="360" alt="Ti ベース上のジルコニア インプラントクラウン" loading="lazy"></figure>
+              <div class="about">
+                <h3 class="h3">インプラントクラウン</h3>
+                <p>Ti ベース上のジルコニア。スクリュー固定またはセメント固定。</p>
+              </div>
+              <ul class="prices">
+                <li><span>ジルコニア インプラントクラウン（Ti ベース別途）</span><b>€45</b></li>
+              </ul>
             </li>
             <li>
-              <strong>レビュー</strong>
-              <span>製作前に貴チームがファイルを確認し、必要に応じて修正を依頼します。</span>
+              <figure><img src="../assets/home/p-splint.jpg" width="640" height="480" alt="オクルーザルスプリントのデジタル設計" loading="lazy"></figure>
+              <div class="about">
+                <h3 class="h3">オクルーザルスプリント</h3>
+                <p>ミシガン型・スタビライゼーション型スプリントを、指示された咬合で製作します。</p>
+              </div>
+              <ul class="prices">
+                <li><span>オクルーザルスプリント（ミシガン型）片顎</span><b>€60</b></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section porcelain" id="complex" aria-labelledby="complex-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 class="h2" id="complex-title">複雑な症例</h2>
+            <div class="notes">
+              <p>まず御社と一緒に計画し、同じチームが設計・製作します。</p>
+              <p>症例ごとにお見積りします。</p>
+            </div>
+          </div>
+          <div class="cases">
+            <article>
+              <figure><img src="../assets/home/c-full-mouth.jpg" width="960" height="600" alt="フルマウス咬合リハビリテーションの計画" loading="lazy"></figure>
+              <h3 class="h3">フルマウス再構成</h3>
+              <p>咬耗した歯列や咬合高径の変更を、一つの咬合として計画します。</p>
+            </article>
+            <article>
+              <figure><img src="../assets/home/c-full-arch.jpg" width="912" height="570" alt="フルアーチ インプラントのプロビジョナル補綴物とフレーム" loading="lazy"></figure>
+              <h3 class="h3">フルアーチ インプラント症例</h3>
+              <p>ガイドとプロビジョナルから最終補綴物まで。</p>
+            </article>
+            <article>
+              <figure><img src="../assets/home/c-axisguide.jpg" width="960" height="600" alt="AxisGuide 計画用の CBCT 頭蓋骨と CAD ポジションキャリア" loading="lazy"></figure>
+              <h3 class="h3">顎関節・咬合症例</h3>
+              <p>顎関節が関わるリハビリテーションのための、画像に基づく計画。</p>
+              <a class="text-link" href="axisguide.html">AxisGuide について</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="workflow" aria-labelledby="workflow-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 class="h2" id="workflow-title">3つのステップ</h2>
+          </div>
+          <ol class="steps">
+            <li>
+              <h3 class="h3">症例を送る</h3>
+              <p>スキャンまたは御社の設計データに、材料・シェード・納期を添えて。MW CaseHub から、またはいつものファイル送付方法で。</p>
+            </li>
+            <li>
+              <h3 class="h3">設計・製作</h3>
+              <p>ミリング前に設計を確認できます。製作は5–7営業日です。</p>
+            </li>
+            <li>
+              <h3 class="h3">受け取り</h3>
+              <p>完成した補綴物は国際宅配便で御社に届きます。</p>
             </li>
           </ol>
         </div>
       </section>
 
-      <section class="section standards" id="standards" aria-labelledby="standards-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">運用基準</div>
-            <h2 id="standards-title">明確な範囲、確認済みの納期、管理された修正。</h2>
+      <section class="section on-dark" id="start" aria-labelledby="start-title">
+        <div class="wrap trial-grid">
+          <div class="trial-copy">
+            <h2 class="h2" id="start-title">まずはテスト症例を1件</h2>
+            <p class="lede muted">1症例をお送りいただき、御社の作業台で仕上がりをご判断ください。</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20%E3%83%86%E3%82%B9%E3%83%88%E7%97%87%E4%BE%8B&amp;body=%E6%8A%80%E5%B7%A5%E6%89%80%E5%90%8D%EF%BC%9A%0A%E5%9B%BD%EF%BC%9A%0A%E8%A3%9C%E7%B6%B4%E7%89%A9%E3%81%AE%E7%A8%AE%E9%A1%9E%E3%81%A8%E6%9D%90%E6%96%99%EF%BC%9A%0A%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E6%95%B0%EF%BC%9A%0A%E3%82%B7%E3%82%A7%E3%83%BC%E3%83%89%EF%BC%9A%0A%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%EF%BC%88%E3%82%B9%E3%82%AD%E3%83%A3%E3%83%B3%E3%81%BE%E3%81%9F%E3%81%AF%E5%BE%A1%E7%A4%BE%E3%81%AE%E8%A8%AD%E8%A8%88%EF%BC%89%EF%BC%9A%0A%E5%B8%8C%E6%9C%9B%E7%B4%8D%E6%9C%9F%EF%BC%9A">テスト症例を送る</a>
+              <a class="btn btn-ghost" href="tel:+8613520990993">+86 135 2099 0993</a>
+            </div>
           </div>
-          <p>
-            CAD 作業開始前に実務上の詳細を明確にし、何がいつレビュー可能になるかを把握できるようにします。
-          </p>
-        </div>
-        <div class="standards-grid">
-          <article>
-            <strong>症例受付</strong>
-            <span>作業予定前に、症例コード、スキャン、咬合記録、出力形式、製作方法、インプラントライブラリを確認します。</span>
-          </article>
-          <article>
-            <strong>納期</strong>
-            <span>日常 CAD の納期はファイル確認後に決定します。複雑な症例は必要資料とステージ合意後に予定します。</span>
-          </article>
-          <article>
-            <strong>修正範囲</strong>
-            <span>元資料と指示が変更されない場合、技術的修正 1 回を含みます。</span>
-          </article>
-          <article>
-            <strong>範囲再設定の条件</strong>
-            <span>新しいスキャン、新しい咬合位、インプラント計画変更、治療方針変更、成果物追加は範囲更新として扱います。</span>
-          </article>
-          <article>
-            <strong>専門的管理</strong>
-            <span>製作前に貴チームが CAD ファイルを確認し、臨床判断は治療担当医に残ります。</span>
-          </article>
-          <article>
-            <strong>臨床データのプライバシー</strong>
-            <span>症例資料は可能な限り匿名化し、共有前に識別情報を削除してください。</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="section data-security" aria-labelledby="data-security-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">データと症例転送</div>
-            <h2 id="data-security-title">初回症例前にプロフェッショナルなファイル処理を確認します。</h2>
-          </div>
-          <p>
-            複雑な歯科記録は機微情報です。支払い、臨床ファイル、プロジェクト範囲を分け、不必要な患者情報を露出せずに協業できるようにします。
-          </p>
-        </div>
-        <div class="data-grid">
-          <article>
-            <strong>匿名化資料</strong>
-            <span>臨床記録送付前に、可能な限り患者名、生年月日、受付番号、症例日を削除してください。</span>
-          </article>
-          <article>
-            <strong>合意済み転送経路</strong>
-            <span>症例ファイルは、支払いメモではなく、合意したアップロードリンクまたは安全な転送チャネルで交換します。</span>
-          </article>
-          <article>
-            <strong>範囲確認</strong>
-            <span>CAD または計画作業の開始前に、成果物、ファイル形式、ライブラリ、納期、修正範囲を確認します。</span>
-          </article>
-          <article>
-            <strong>継続協業</strong>
-            <span>定期業務では、協業拡大前に守秘義務とデータ処理の期待値を確認できます。</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="section partner-portal" id="casehub" aria-labelledby="casehub-title">
-        <div class="partner-portal-copy">
-          <div class="section-kicker">MW CaseHub プライベートベータ</div>
-          <h2 id="casehub-title">招待制ラボパートナー向けの専用症例コミュニケーションハブ。</h2>
-          <p>
-            CaseHub は、構造化された症例受付、歯牙選択、ファイルアップロード、ステータス追跡、症例ディスカッション、納品ファイルを 1 つのプライベートワークスペースに集約します。可能な限り匿名化または最小化された臨床記録を前提とし、MW DenTech が選定ラボやクリニックとワークフローを検証している間、ベータ版は招待制です。
-          </p>
-          <div class="partner-portal-status" aria-label="CaseHub beta status">
-            <span>プライベートベータ</span>
-            <span>パートナーラボ導入</span>
-            <span>GDPR を意識したワークフロー</span>
-          </div>
-          <div class="partner-portal-actions">
-            <a class="button primary" href="mailto:hello@mwdentech.com?subject=MW%20CaseHub%20%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E7%94%B3%E8%AB%8B&body=%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%20/%20%E3%83%A9%E3%83%9C%E5%90%8D%3A%0A%E5%9B%BD%3A%0A%E6%8B%85%E5%BD%93%E8%80%85%3A%0A%E7%B6%99%E7%B6%9A%E7%97%87%E4%BE%8B%E3%82%BF%E3%82%A4%E3%83%97%3A%0A%E6%9C%88%E9%96%93%E8%A6%8B%E8%BE%BC%E3%81%BF%E7%97%87%E4%BE%8B%E6%95%B0%3A%0A%E6%97%A2%E5%AD%98%20MW%20DenTech%20%E7%97%87%E4%BE%8B%E5%8F%82%E7%85%A7%EF%BC%88%E3%81%82%E3%82%8C%E3%81%B0%EF%BC%89%3A">パートナーアクセスを申請</a>
-            <a class="button secondary on-light" href="https://casehub.mwdentech.com/login">パートナーログイン</a>
-            <a class="button secondary on-light" href="#order">初回症例を開始</a>
-          </div>
-        </div>
-        <div class="partner-portal-grid" aria-label="MW CaseHub partner workspace features">
-          <article>
-            <span>01</span>
-            <strong>構造化された症例受付</strong>
-            <p>MW が範囲レビューを始める前に、症例コード、指示概要、選択歯、期限、緊急度、初回ファイルを収集します。</p>
-          </article>
-          <article>
-            <span>02</span>
-            <strong>共有コミュニケーションスレッド</strong>
-            <p>パートナーからの質問、MW のメモ、ファイル納品、レビューコメントを同じ症例参照に紐づけます。</p>
-          </article>
-          <article>
-            <span>03</span>
-            <strong>管理されたベータアクセス</strong>
-            <p>初回協業の範囲とデータ転送の期待値が合意された後、選択的にアクセスを導入します。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section advantage" aria-labelledby="advantage-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">MW DenTech が選ばれる理由</div>
-            <h2 id="advantage-title">競争力ある日常 CAD と、複雑計画のために確保されたキャパシティ。</h2>
-          </div>
-          <p>
-            日常設計は継続協業を前提に価格設定します。高度な計画は、画像レビュー、シーケンス、検証、プロビジョナル段階を丁寧に範囲定義するため、先に見積します。
-          </p>
-        </div>
-        <div class="advantage-grid">
-          <article>
-            <strong>メニュー価格の効率</strong>
-            <span>資料と製作方法がすでに定義されている場合、反復可能なクラウン、ブリッジ、ベニア、インプラントクラウン、ガイド、装置 CAD に低い導入価格を適用します。</span>
-          </article>
-          <article>
-            <strong>高度計画の深さ</strong>
-            <span>選択症例では、範囲に含まれる場合、MRI、CBCT、口腔内スキャン、下顎シミュレーション、ローカライザー検証、プロビジョナルから最終までの計画を統合できます。</span>
-          </article>
-          <article>
-            <strong>バルセロナ拠点のクライアント対応</strong>
-            <span>スペイン・バルセロナ拠点の運用として、EUR 価格、書面での範囲確認、明確な支払い案内、規律ある症例転送要件を提供します。</span>
-          </article>
-          <article>
-            <strong>臨床医主導の境界</strong>
-            <span>診断、治療選択、結果評価は臨床医に残り、MW DenTech はデジタル設計、計画参考、技術調整を支援します。</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="section case-evidence" id="evidence" aria-labelledby="evidence-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">症例資料</div>
-            <h2 id="evidence-title">複雑計画の相談に使うミニ症例参考。</h2>
-          </div>
-          <p>
-            これらの匿名化例は、症例がメニュー価格 CAD を超える場合に使う資料、計画出力、臨床的境界を示します。
-          </p>
-        </div>
-
-        <div class="case-evidence-grid">
-          <article class="case-card case-card-axisguide">
-            <div class="case-panel-strip" role="group" aria-label="AxisGuide 機能計画 case reference panels">
-              <figure class="case-panel">
-                <img src="../assets/axisguide-mini-mri-verification.jpg" alt="Anonymized before and after TMJ MRI 検証 reference">
-                <figcaption>MRI 検証</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <video autoplay loop muted playsinline preload="metadata" aria-label="Digital mandibular simulation showing the proposed jaw position transfer">
-                  <source src="../assets/axisguide-mini-mandibular-simulation.m4v" type="video/mp4">
-                </video>
-                <figcaption>下顎シミュレーション</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <img src="../assets/axisguide-mini-position-carrier-localizator-centered.jpg" alt="CAD-designed position carrier for localizator verification">
-                <figcaption>ポジションキャリア</figcaption>
-              </figure>
-            </div>
-            <div class="case-card-body">
-              <span>AxisGuide</span>
-              <h3>機能的 TMJ 計画参考</h3>
-              <dl>
-                <div><dt>症例タイプ</dt><dd>開始下顎位のレビューが必要な TMJ 配慮型全顎計画。</dd></div>
-                <div><dt>使用資料</dt><dd>TMJ MRI、CBCT/DICOM、口腔内スキャン、症状、現在位記録、リハビリ目標。</dd></div>
-                <div><dt>計画出力</dt><dd>MRI ベクトル参考、下顎シミュレーション、ローカライザー CAD、臨床医主導の検証参考。</dd></div>
-                <div><dt>臨床境界</dt><dd>診断、治療選択、結果評価は治療担当医に残ります。</dd></div>
-              </dl>
-              <a class="case-link" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20AxisGuide%20%E9%A1%9E%E4%BC%BC%E7%97%87%E4%BE%8B%E7%9B%B8%E8%AB%87&body=%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%20/%20%E3%83%A9%E3%83%9C%E5%90%8D%3A%0A%E5%9B%BD%3A%0A%E9%A1%9E%E4%BC%BC%E7%97%87%E4%BE%8B%E3%82%BF%E3%82%A4%E3%83%97%3A%20AxisGuide%20%E6%A9%9F%E8%83%BD%E8%A8%88%E7%94%BB%0A%E5%88%A9%E7%94%A8%E5%8F%AF%E8%83%BD%E8%B3%87%E6%96%99%20%28MRI%20/%20CBCT-DICOM%20/%20STL%20/%20%E5%86%99%E7%9C%9F%20/%20%E5%92%AC%E5%90%88%E8%A8%98%E9%8C%B2%29%3A%0A%E7%97%87%E4%BE%8B%E7%9B%AE%E6%A8%99%3A%0A%E5%B8%8C%E6%9C%9B%E6%88%90%E6%9E%9C%E7%89%A9%3A%0A%E5%B8%8C%E6%9C%9B%E6%99%82%E6%9C%9F%3A">類似症例を相談</a>
-            </div>
-          </article>
-
-          <article class="case-card case-card-fullmouth">
-            <div class="case-panel-strip" role="group" aria-label="全顎 occlusal rehabilitation case reference panels">
-              <figure class="case-panel">
-                <img src="../assets/full-mouth-initial-condition.jpg" alt="Initial worn dentition and reduced vertical dimension reference">
-                <figcaption>初期状態</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <img src="../assets/full-mouth-occlusal-planning.jpg" alt="Digital full-mouth occlusal contact planning reference">
-                <figcaption>咬合 CAD 計画</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <img src="../assets/full-mouth-restorative-verification.jpg" alt="Provisional or final restorative verification after full-mouth occlusal planning">
-                <figcaption>補綴検証</figcaption>
-              </figure>
-            </div>
-            <div class="case-card-body">
-              <span>全顎</span>
-              <h3>咬合リハビリ参考</h3>
-              <dl>
-                <div><dt>症例タイプ</dt><dd>咬耗歯列、VDO 変更、不安定な咬合記録により、プロビジョナルから最終までの調整が必要な症例。</dd></div>
-                <div><dt>使用資料</dt><dd>口腔内スキャン、咬合記録、写真、補綴計画、VDO または咬合平面目標、利用可能なプロビジョナル参考。</dd></div>
-                <div><dt>計画出力</dt><dd>加算型ワックスアップ、プロビジョナル CAD 参考、MIP 接触レビュー、最終補綴 CAD 調整。</dd></div>
-                <div><dt>臨床境界</dt><dd>製作前に、咬合スキームと治療シーケンスを臨床チームが確認します。</dd></div>
-              </dl>
-              <a class="case-link" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20%E5%85%A8%E9%A1%8E%E9%A1%9E%E4%BC%BC%E7%97%87%E4%BE%8B%E7%9B%B8%E8%AB%87&body=%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%20/%20%E3%83%A9%E3%83%9C%E5%90%8D%3A%0A%E5%9B%BD%3A%0A%E9%A1%9E%E4%BC%BC%E7%97%87%E4%BE%8B%E3%82%BF%E3%82%A4%E3%83%97%3A%20%E5%85%A8%E9%A1%8E%E5%92%AC%E5%90%88%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%0A%E5%88%A9%E7%94%A8%E5%8F%AF%E8%83%BD%E8%B3%87%E6%96%99%20%28STL%20/%20PLY%20/%20OBJ%20/%20%E5%86%99%E7%9C%9F%20/%20%E5%92%AC%E5%90%88%E8%A8%98%E9%8C%B2%29%3A%0AVDO%20%E3%81%BE%E3%81%9F%E3%81%AF%E5%92%AC%E5%90%88%E7%9B%AE%E6%A8%99%3A%0A%E5%B8%8C%E6%9C%9B%E6%88%90%E6%9E%9C%E7%89%A9%3A%0A%E5%B8%8C%E6%9C%9B%E6%99%82%E6%9C%9F%3A">類似症例を相談</a>
-            </div>
-          </article>
-
-          <article class="case-card case-card-fullarch">
-            <div class="case-panel-strip" role="group" aria-label="フルアーチ implant rehabilitation case reference panels">
-              <figure class="case-panel">
-                <img src="../assets/full-arch-evidence-cbct-position-reference.jpg" alt="CBCT implant position reference for full-arch implant rehabilitation planning">
-                <figcaption>インプラント位置参考</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <img src="../assets/full-arch-evidence-guide-prosthetic-planning.jpg" alt="フルアーチ prosthetic setup planning CAD reference">
-                <figcaption>補綴セットアップ計画</figcaption>
-              </figure>
-              <figure class="case-panel">
-                <img src="../assets/full-arch-evidence-provisional-framework.jpg" alt="Final full-arch prosthesis and framework support reference">
-                <figcaption>最終補綴 + フレームワーク</figcaption>
-              </figure>
-            </div>
-            <div class="case-card-body">
-              <span>フルアーチ</span>
-              <h3>フルアーチインプラントワークフロー参考</h3>
-              <dl>
-                <div><dt>症例タイプ</dt><dd>インプラント位置参考、補綴セットアップ、最終フレームワーク/補綴調整が必要な All-on-X または終末歯列ワークフロー。</dd></div>
-                <div><dt>使用資料</dt><dd>CBCT/DICOM、インプラント計画または提案位置、スキャン、スキャンボディまたは MUA 記録、補綴目標。</dd></div>
-                <div><dt>計画出力</dt><dd>CBCT インプラント位置参考、補綴セットアップ計画、フレームワーク支援、最終フルアーチ補綴調整。</dd></div>
-                <div><dt>臨床境界</dt><dd>インプラント埋入判断、外科実行、補綴承認は治療チームに残ります。</dd></div>
-              </dl>
-              <a class="case-link" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20%E3%83%95%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%81%E9%A1%9E%E4%BC%BC%E7%97%87%E4%BE%8B%E7%9B%B8%E8%AB%87&body=%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%20/%20%E3%83%A9%E3%83%9C%E5%90%8D%3A%0A%E5%9B%BD%3A%0A%E9%A1%9E%E4%BC%BC%E7%97%87%E4%BE%8B%E3%82%BF%E3%82%A4%E3%83%97%3A%20%E3%83%95%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%81%E3%82%A4%E3%83%B3%E3%83%97%E3%83%A9%E3%83%B3%E3%83%88%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%0A%E5%88%A9%E7%94%A8%E5%8F%AF%E8%83%BD%E8%B3%87%E6%96%99%20%28CBCT-DICOM%20/%20%E3%82%A4%E3%83%B3%E3%83%97%E3%83%A9%E3%83%B3%E3%83%88%E8%A8%88%E7%94%BB%20/%20STL%20/%20%E3%82%B9%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9C%E3%83%87%E3%82%A3%E3%81%BE%E3%81%9F%E3%81%AF%20MUA%20%E8%A8%98%E9%8C%B2%29%3A%0A%E8%A3%9C%E7%B6%B4%E7%9B%AE%E6%A8%99%3A%0A%E5%B8%8C%E6%9C%9B%E6%88%90%E6%9E%9C%E7%89%A9%3A%0A%E5%B8%8C%E6%9C%9B%E6%99%82%E6%9C%9F%3A">類似症例を相談</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="sample-deliverables" aria-label="成果物例">
-          <strong>成果物例</strong>
-          <span>CAD ファイル</span>
-          <span>計画スクリーンショット</span>
-          <span>段階別チェックリスト</span>
-          <span>検証参考</span>
-          <span>見積範囲メモ</span>
-        </div>
-      </section>
-
-      <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">プロフェッショナルパートナー料金</div>
-            <h2 id="pricing-title">日常 CAD はメニュー価格、複雑ワークフローは範囲見積。</h2>
-          </div>
-          <p>
-            公開開始価格により、反復可能な CAD 業務をテストできます。特記がない限り、表示 EUR 価格は VAT/IVA を除く専門業務の純額です。シーケンス、画像レビュー、段階的プロビジョナル計画が作業量に影響する項目は、個別に範囲定義してから見積します。
-          </p>
-        </div>
-        <p class="pricing-vat-note">
-          VAT / IVA 注記：必要な場合はスペイン IVA が適用され、現在の標準税率は 21% です。有効な VAT 情報が確認された対象 EU B2B クライアントにはリバースチャージで請求でき、その他の適用税はクライアント所在地と請求状態に従って処理します。
-        </p>
-        <div class="pricing-grid">
-          <article class="pricing-card">
-            <span>コア設計</span>
-            <h3>補綴・審美 CAD</h3>
-            <dl>
-              <div><dt>単独補綴 CAD</dt><dd>EUR 10 から / ユニット</dd></div>
-              <div><dt>複数ユニットクラウン・ブリッジ CAD</dt><dd>EUR 10 から / ユニット</dd></div>
-              <div><dt>ベニア / 審美ワックスアップ</dt><dd>EUR 14 から / ユニット</dd></div>
-              <div><dt>スマイルデザインパッケージ</dt><dd>症例ごとに見積</dd></div>
-            </dl>
-          </article>
-          <article class="pricing-card">
-            <span>インプラントと機能</span>
-            <h3>インプラント、ガイド、スプリント</h3>
-            <dl>
-              <div><dt>インプラントクラウン CAD</dt><dd>EUR 24 から / ユニット</dd></div>
-              <div><dt>エマージェンスプロファイル付きカスタムアバットメント CAD</dt><dd>EUR 32 から / ユニット</dd></div>
-              <div><dt>単独インプラントガイド CAD</dt><dd>EUR 50 から / 症例</dd></div>
-              <div><dt>同一ガイド内の追加インプラント部位</dt><dd>+EUR 10 / 部位</dd></div>
-              <div><dt>部分顎 / 複雑ガイド CAD</dt><dd>症例ごとに見積</dd></div>
-              <div><dt>スプリント / デプログラマー CAD</dt><dd>EUR 39 から / 症例</dd></div>
-              <div><dt>AxisGuide 機能計画</dt><dd>症例ごとに見積</dd></div>
-              <div><dt>その他装置 CAD</dt><dd>症例ごとに見積</dd></div>
-            </dl>
-          </article>
-          <article class="pricing-card">
-            <span>複雑リハビリ</span>
-            <h3>全顎・フルアーチワークフロー</h3>
-            <dl>
-              <div><dt>全顎咬合計画・シーケンス</dt><dd>症例ごとに見積</dd></div>
-              <div><dt>VDO / 咬耗歯列ワックスアップ・プロビジョナル CAD</dt><dd>症例ごとに見積</dd></div>
-              <div><dt>フルアーチガイド・固定ピン計画</dt><dd>EUR 180 から / アーチ</dd></div>
-              <div><dt>即時荷重プロビジョナル設計</dt><dd>EUR 220 から / アーチ</dd></div>
-              <div><dt>最終フルアーチ補綴設計</dt><dd>EUR 220 から / アーチ</dd></div>
-              <div><dt>完全フルアーチワークフロー支援</dt><dd>症例ごとに見積</dd></div>
-              <div><dt>急ぎ・週末作業</dt><dd>+30-80%</dd></div>
-            </dl>
-          </article>
-        </div>
-        <p class="pricing-note">
-          実際の歯科 CAD の経済性に基づいています。価格は CAD 設計と計画支援のみを対象とし、書面見積または請求書に記載がない限り、プリント、製作、部品、配送、関税、VAT/IVA、その他税金は含みません。継続量、ファイル品質、修正傾向が確認された後、ボリューム価格に対応できます。
-        </p>
-      </section>
-
-      <section class="section order-system" id="order" aria-labelledby="order-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">症例を開始</div>
-            <h2 id="order-title">メニュー価格 CAD サービスを依頼、または複雑症例の範囲見積を依頼できます。</h2>
-          </div>
-          <p>
-            メニュー価格 CAD はファイル確認後にメニューから価格設定できます。AxisGuide、全顎、フルアーチは、資料、シーケンス、検証ステップが実作業量を決めるため、先に範囲定義します。
-          </p>
-        </div>
-
-        <div class="order-flow">
-          <article>
-            <span>01</span>
-            <h3>範囲を選択</h3>
-            <p>メニュー価格 CAD サービスを選ぶか、症例を AxisGuide、全顎、フルアーチリハビリとして特定します。</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>資料を確認</h3>
-            <p>予定前に、ファイル品質、ライブラリ、咬合記録、画像、製作方法、転送経路を確認します。</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>範囲を承認</h3>
-            <p>メニュー価格 CAD は範囲確認後に支払いと請求書の案内を受け取り、複雑症例は書面見積またはデポジット依頼を受け取ります。</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>成果物をレビュー</h3>
-            <p>製作または次の臨床段階の前に、貴チームが CAD または計画ファイルを確認します。</p>
-          </article>
-        </div>
-
-        <div class="order-columns">
-          <article class="order-panel">
-            <div class="order-panel-heading">
-              <span>メニュー価格</span>
-              <h3>メニュー価格 CAD サービス</h3>
-              <p>資料、咬合位、インプラントライブラリ、製作方法が明確な反復業務に適しています。</p>
-            </div>
-            <div class="scope-list" aria-label="メニュー価格 CAD service categories">
-              <span>補綴 CAD</span>
-              <span>ベニア / 審美ワックスアップ</span>
-              <span>インプラントクラウン CAD</span>
-              <span>カスタムアバットメント CAD</span>
-              <span>単独インプラントガイド CAD</span>
-              <span>スプリント / デプログラマー CAD</span>
-            </div>
-            <p class="order-panel-note">ファイルレビューと範囲確認後、公開純額メニューから価格設定します。</p>
-            <a class="button primary" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E4%BE%A1%E6%A0%BC%20CAD%20%E7%AF%84%E5%9B%B2%E4%BE%9D%E9%A0%BC&body=%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%20/%20%E3%83%A9%E3%83%9C%E5%90%8D%3A%0A%E5%9B%BD%3A%0A%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E4%BE%A1%E6%A0%BC%20CAD%20%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%3A%0A%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%20/%20%E3%82%A2%E3%83%BC%E3%83%81%20/%20%E7%97%87%E4%BE%8B%E6%95%B0%3A%0A%E5%88%A9%E7%94%A8%E5%8F%AF%E8%83%BD%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%3A%0A%E5%B8%8C%E6%9C%9B%E5%87%BA%E5%8A%9B%E5%BD%A2%E5%BC%8F%3A%0A%E8%A3%BD%E4%BD%9C%E6%96%B9%E6%B3%95%3A%0A%E5%B8%8C%E6%9C%9B%E7%B4%8D%E6%9C%9F%3A">メニュー見積を依頼</a>
-          </article>
-
-          <article class="order-panel quoted-panel">
-            <div class="order-panel-heading">
-              <span>先に見積</span>
-              <h3>複雑な計画ワークフロー</h3>
-              <p>シーケンス、画像レビュー、プロビジョナル戦略、多職種連携が範囲に影響する症例に適しています。</p>
-            </div>
-            <div class="scope-list dark" aria-label="Complex planning workflow categories">
-              <span>AxisGuide 機能計画</span>
-              <span>全顎咬合シーケンス</span>
-              <span>VDO / 咬耗歯列リハビリ</span>
-              <span>部分顎または複雑ガイド症例</span>
-              <span>フルアーチ / All-on-X インプラントワークフロー</span>
-            </div>
-            <p class="order-panel-note">書面見積、デポジット、段階別支払い案内の前に個別に範囲定義します。</p>
-            <a class="button secondary dark" href="mailto:hello@mwdentech.com?subject=MW%20DenTech%20%E8%A4%87%E9%9B%91%E7%97%87%E4%BE%8B%E8%A6%8B%E7%A9%8D%E4%BE%9D%E9%A0%BC&body=%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%20/%20%E3%83%A9%E3%83%9C%E5%90%8D%3A%0A%E5%9B%BD%3A%0A%E5%B8%8C%E6%9C%9B%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC%20%28AxisGuide%20/%20%E5%85%A8%E9%A1%8E%20/%20%E3%83%95%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%81%29%3A%0A%E7%97%87%E4%BE%8B%E7%9B%AE%E6%A8%99%3A%0A%E5%88%A9%E7%94%A8%E5%8F%AF%E8%83%BD%E8%B3%87%E6%96%99%20%28STL%20/%20PLY%20/%20OBJ%20/%20CBCT-DICOM%20/%20MRI%20/%20%E5%86%99%E7%9C%9F%20/%20%E5%92%AC%E5%90%88%E8%A8%98%E9%8C%B2%29%3A%0A%E8%87%A8%E5%BA%8A%E3%81%BE%E3%81%9F%E3%81%AF%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E7%9B%AE%E6%A8%99%3A%0A%E5%B8%8C%E6%9C%9B%E6%88%90%E6%9E%9C%E7%89%A9%3A%0A%E5%B8%8C%E6%9C%9B%E6%99%82%E6%9C%9F%3A">見積を依頼</a>
-          </article>
-        </div>
-
-        <div class="intake-matrix" aria-label="症例受付 routing">
-          <article>
-            <span>メニュー価格 CAD</span>
-            <h3>設計目標がすでに明確な場合に使用します。</h3>
-            <p>口腔内スキャン、必要な咬合記録、出力形式、CAD/CAM システム、材料または製作方法、希望納期を送付します。</p>
-          </article>
-          <article>
-            <span>機能または全顎計画</span>
-            <h3>咬合またはステージングのレビューが必要な場合に使用します。</h3>
-            <p>スキャン、写真、咬合または顎位関係記録、プロビジョナルまたはワックスアップ参考、VDO または咬合目標、範囲に含まれる場合は MRI/CBCT を送付します。</p>
-          </article>
-          <article>
-            <span>フルアーチインプラントワークフロー</span>
-            <h3>ガイド、プロビジョナル、補綴段階が連動する場合に使用します。</h3>
-            <p>CBCT/DICOM、インプラント計画または提案位置、スキャンボディまたは MUA 記録、固定要件、即時プロビジョナル目標、最終補綴目標を送付します。</p>
-          </article>
-        </div>
-
-        <div class="deliverable-grid" aria-label="Expected deliverables">
-          <article>
-            <h3>日常 CAD 成果物</h3>
+          <div class="send-list">
+            <h3>送っていただくもの</h3>
             <ul>
-              <li>合意した出力形式のレビュー可能な CAD ファイル</li>
-              <li>設計前に製作方法、材料前提、ライブラリ要件を確認</li>
-              <li>元資料が変わらない場合の技術的修正 1 回</li>
+              <li>スキャンデータ（STL / PLY / OBJ）または御社の設計ファイル</li>
+              <li>材料とシェード</li>
+              <li>インプラントシステムと Ti ベース（該当する場合）</li>
+              <li>必要な日付</li>
             </ul>
-          </article>
-          <article>
-            <h3>インプラント、ガイド、装置成果物</h3>
-            <ul>
-              <li>設計前にライブラリ、スリーブ、スキャンボディ、Ti ベース、装置プロトコルを確認</li>
-              <li>確認済み CAD/CAM ワークフロー向けの製作可能ファイル</li>
-              <li>含まれない部品、プリント、製作、配送に関する範囲メモ</li>
-            </ul>
-          </article>
-          <article>
-            <h3>複雑ワークフロー成果物</h3>
-            <ul>
-              <li>資料準備状況レビューと段階別計画ブリーフ</li>
-              <li>見積に含まれる場合のシミュレーション、検証、プロビジョナル参考</li>
-              <li>デジタル計画支援と、臨床医主導の診断、治療判断、臨床実行を分ける範囲メモ</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="payment-note">
-          <strong>支払いとファイル転送</strong>
-          <span>支払い方法と請求書情報は範囲レビュー後に確認します。メニュー価格 CAD は、確認済みの支払い設定に従い、銀行振込、請求書、安全な支払いリンクで精算できます。複雑症例は先に見積し、合意した段階に応じてデポジットまたは残金案内を発行します。VAT/IVA またはリバースチャージ処理は、クライアント所在地と VAT 状態に応じて請求書上で処理します。症例ファイルは合意済みアップロードリンクまたは安全な転送チャネルで交換し、患者識別情報を支払いメモに入力しないでください。</span>
-        </div>
-
-        <div class="contact-strip" aria-label="直接連絡">
-          <strong>直接連絡</strong>
-          <a href="mailto:hello@mwdentech.com">hello@mwdentech.com</a>
-          <a href="tel:+34686239089">+34 686 239 089</a>
-        </div>
-      </section>
-
-      <section class="section pilot" aria-labelledby="pilot-title">
-        <div class="pilot-copy">
-          <div class="section-kicker">パイロット協業</div>
-          <h2 id="pilot-title">まずは有料テスト症例 1 件から。</h2>
-          <p>
-            代表的な症例を 1 件送付してください。設計開始前に、メニュー価格に合うか、範囲見積が必要かを確認します。
-          </p>
-        </div>
-        <div class="pilot-panel" aria-label="Pilot case checklist">
-          <strong>初回症例で送付するもの</strong>
-          <ul>
-            <li>クリニックまたはラボの症例コード、国、希望サービス、症例タイプ</li>
-            <li>関連する STL / PLY / OBJ 口腔内スキャン、咬合記録、顎位関係記録、参考写真</li>
-            <li>希望 CAD/CAM システム、出力形式、製作方法</li>
-            <li>関連するインプラントシステム、スキャンボディ、Ti ベース、ライブラリ、設計プロトコル</li>
-            <li>AxisGuide 症例：TMJ MRI、CBCT/DICOM、口腔内スキャン、症状メモ、現在下顎位記録、リハビリ目標</li>
-            <li>全顎リハビリ：VDO 変更、咬合平面目標、補綴計画、利用可能な既存ワックスアップまたはプロビジョナル参考</li>
-            <li>フルアーチインプラントリハビリ：CBCT/DICOM、インプラント計画または提案位置、スキャンボディまたはマルチユニットアバットメント記録、即時プロビジョナル目標、利用可能な検証記録</li>
-            <li>希望納期と修正期待値</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section faq" aria-labelledby="faq-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">よくある質問</div>
-            <h2 id="faq-title">協業範囲の決め方。</h2>
+            <p class="contact"><a href="mailto:hello@mwdentech.com">hello@mwdentech.com</a></p>
           </div>
-          <p>
-            初回症例送付前のラボと臨床医向け短い回答。
-          </p>
-        </div>
-        <div class="faq-grid">
-          <details>
-            <summary>補綴物を製作しますか、それとも設計のみですか？</summary>
-            <p>MW DenTech は CAD 設計と計画支援を提供します。価格は CAD/設計の純額であり、別途取り決めて書面見積または請求書に表示されない限り、プリント、ミリング、部品、配送、関税、VAT/IVA、その他税金は含みません。</p>
-          </details>
-          <details>
-            <summary>メニュー価格 CAD とは何ですか？</summary>
-            <p>明確なサービスカテゴリー、使用可能な資料、指示済み咬合位、既知の製作方法、予測可能な成果物を持つ日常 CAD です。</p>
-          </details>
-          <details>
-            <summary>なぜ複雑ワークフローは先に見積しますか？</summary>
-            <p>複雑症例はシーケンス、画像レビュー、プロビジョナル戦略、検証記録、学際的調整に依存するため、価格設定前に範囲確認が必要です。</p>
-          </details>
-          <details>
-            <summary>技術的修正 1 回には何が含まれますか？</summary>
-            <p>元資料と指示が変わらない場合、技術的修正 1 回を含みます。新資料、新咬合位、インプラント計画変更、治療方針変更、成果物追加は範囲更新として扱います。</p>
-          </details>
-          <details>
-            <summary>臨床記録はどう共有すべきですか？</summary>
-            <p>合意済みアップロードリンクまたは安全な転送チャネルを使用してください。可能な限り患者識別情報を削除し、支払いメモに臨床詳細を書かないでください。</p>
-          </details>
-          <details>
-            <summary>AxisGuide はどこに適用されますか？</summary>
-            <p>AxisGuide は、選択された臨床医主導の TMJ 配慮型リハビリ症例に対応します。段階的咬合再建前に提案下顎位を計画、テスト、検証するための、画像情報に基づく構造化された経路を提供します。</p>
-          </details>
         </div>
       </section>
 
+      <section class="section" aria-labelledby="faq-title">
+        <div class="wrap faq-grid">
+          <h2 class="h2" id="faq-title">よくある質問</h2>
+          <div class="faq-list">
+            <details>
+              <summary>価格には何が含まれますか？</summary>
+              <p>設計、ミリング、ステイン、グレーズです。Ti ベース、送料、関税、税金は見積書に別途記載します。</p>
+            </details>
+            <details>
+              <summary>どこで製作していますか？</summary>
+              <p>中国で製作しています。補綴物は御社の技工所名で納品されます。</p>
+            </details>
+            <details>
+              <summary>設計のみの依頼はできますか？</summary>
+              <p>はい。設計のみ（METALAB）もご依頼に応じて承ります。</p>
+            </details>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="site-footer">
-      <span>M&amp;W METALAB · MW DenTech</span>
-      <span>LUME CONNECT, S.L. が運営</span>
-      <span><a href="mailto:hello@mwdentech.com">hello@mwdentech.com</a> · <a href="tel:+34686239089">+34 686 239 089</a></span>
-      <span>Ronda Sant Pere 48, スペイン・バルセロナ</span>
-      <span>設計 support by M&amp;W METALAB</span>
+    <footer class="site-footer on-dark">
+      <div class="wrap footer-grid">
+        <div class="footer-brand">
+          <img src="../assets/home/mw-mark-white.svg" alt="" width="40" height="24">
+          <div>
+            <strong>MW DenTech</strong>
+            <span class="muted">歯科技工所のための設計と製作</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <a href="mailto:hello@mwdentech.com">hello@mwdentech.com</a>
+          <a href="tel:+8613520990993">+86 135 2099 0993</a>
+        </div>
+        <div class="footer-col">
+          <a href="https://casehub.mwdentech.com/login">CaseHub ログイン</a>
+          <span class="muted">設計サポート：M&amp;W METALAB</span>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
