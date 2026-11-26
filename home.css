@@ -218,7 +218,7 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 
 /* Footer */
 .site-footer { padding-block: 40px; font-size: 14px; }
-.footer-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 24px 40px; align-items: start; }
+.footer-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 2fr); gap: 24px 40px; align-items: start; }
 .footer-brand { display: flex; align-items: center; gap: 12px; }
 .footer-brand img { width: 40px; }
 .footer-brand strong { display: block; font-size: 15px; font-weight: 600; }
