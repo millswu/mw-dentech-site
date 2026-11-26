@@ -192,10 +192,6 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 .send-list h3 { font-size: 16px; font-weight: 500; color: rgba(255, 255, 255, 0.68); margin-bottom: 8px; }
 .send-list ul { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--slate-rule); }
 .send-list li { padding: 14px 0; border-top: 1px solid var(--slate-rule); font-size: 16px; }
-.send-list .contact { margin-top: 18px; font-size: 15px; }
-.send-list .contact a { text-decoration: none; }
-.send-list .contact a:hover { text-decoration: underline; text-underline-offset: 4px; }
-.send-list .contact span { display: block; }
 
 /* FAQ */
 .faq-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 32px 48px; }
@@ -218,13 +214,13 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 
 /* Footer */
 .site-footer { padding-block: 40px; font-size: 14px; }
-.footer-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 2fr); gap: 24px 40px; align-items: start; }
+.footer-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 20px 40px; align-items: center; }
 .footer-brand { display: flex; align-items: center; gap: 12px; }
 .footer-brand img { width: 40px; }
 .footer-brand strong { display: block; font-size: 15px; font-weight: 600; }
 .site-footer a { text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; text-underline-offset: 4px; }
-.footer-col { display: grid; gap: 4px; }
+.footer-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 32px; font-size: 15px; }
 
 /* Responsive */
 @media (max-width: 1099px) {
@@ -239,8 +235,6 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
   .catalog .prices { grid-column: 1 / -1; }
   .cases { grid-template-columns: 1fr 1fr; }
   .cases article:last-child { grid-column: 1 / -1; max-width: calc(50% - 12px); }
-  .footer-grid { grid-template-columns: 1fr 1fr; }
-  .footer-brand { grid-column: 1 / -1; }
 }
 @media (max-width: 600px) {
   .wa-qr { display: none; }
@@ -258,6 +252,7 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
   .cases, .steps { grid-template-columns: 1fr; }
   .cases article:last-child { max-width: none; }
   .footer-grid { grid-template-columns: 1fr; }
+  .footer-links { justify-content: flex-start; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
