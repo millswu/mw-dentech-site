@@ -184,6 +184,9 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 .trial-grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(32px, 5vw, 72px); align-items: start; }
 .trial-copy { display: grid; gap: 20px; }
 .trial-copy .actions { margin-top: 8px; }
+.wa-qr { display: flex; align-items: center; gap: 18px; margin-top: 4px; }
+.wa-qr img { width: 112px; height: 112px; border-radius: 6px; background: #fff; flex: none; }
+.wa-qr p { margin: 0; max-width: 26ch; font-size: 15px; color: rgba(255, 255, 255, 0.68); }
 .send-list h3 { font-size: 16px; font-weight: 500; color: rgba(255, 255, 255, 0.68); margin-bottom: 8px; }
 .send-list ul { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--slate-rule); }
 .send-list li { padding: 14px 0; border-top: 1px solid var(--slate-rule); font-size: 16px; }
@@ -235,6 +238,7 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
   .footer-brand { grid-column: 1 / -1; }
 }
 @media (max-width: 600px) {
+  .wa-qr { display: none; }
   body { font-size: 16px; }
   .brand span { display: none; }
   .header-inner { gap: 10px; }
