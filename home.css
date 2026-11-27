@@ -1,6 +1,6 @@
 /* MW DenTech homepage, 2026-11
-   Layout idea: a precision price catalog. Slate is the product stage for imagery;
-   white sheets with hairline rules carry the facts and prices. */
+   Layout idea: a precision product catalog. Slate is the product stage for imagery;
+   white sheets with hairline rules carry the facts. No price list: every lab gets its own quote. */
 
 @font-face { font-family: "Fira Sans"; font-style: normal; font-weight: 300; font-display: swap; src: url("assets/fonts/fira-sans-light.woff") format("woff"); }
 @font-face { font-family: "Fira Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("assets/fonts/fira-sans-regular.woff") format("woff"); }
@@ -147,7 +147,7 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 .section-head .notes { display: grid; gap: 6px; font-size: 15px; color: var(--steel); }
 .porcelain { background: var(--porcelain); }
 
-/* Catalog: products and prices in one list */
+/* Catalog: what we make, one row per product line */
 .catalog { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--rule); }
 .catalog > li {
   display: grid; grid-template-columns: 184px minmax(0, 1fr) minmax(0, 1.25fr);
@@ -158,14 +158,10 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 .catalog figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; background: var(--slate); }
 .catalog .about { display: grid; align-content: start; gap: 6px; }
 .catalog .about p { font-size: 15px; color: var(--steel); max-width: 30em; }
-.prices { list-style: none; margin: 0; padding: 0; align-self: start; }
-.prices li { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 10px 0; }
-.prices li + li { border-top: 1px solid var(--rule); }
-.prices li:first-child { padding-top: 0; }
-.prices span { font-size: 16px; }
-.prices b { font-size: 26px; font-weight: 400; line-height: 1; font-variant-numeric: tabular-nums lining-nums; white-space: nowrap; letter-spacing: -0.01em; }
-
-.prices b.quote { font-size: 16px; font-weight: 500; letter-spacing: 0; color: var(--steel); }
+.variants { list-style: none; margin: 0; padding: 0; align-self: start; }
+.variants li { font-size: 16px; padding: 10px 0; }
+.variants li + li { border-top: 1px solid var(--rule); }
+.variants li:first-child { padding-top: 0; }
 
 /* Complex cases */
 .cases { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(20px, 3vw, 36px); }
@@ -232,7 +228,7 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
   .hero-figure { margin: 0 calc(-1 * var(--gutter)); }
   .section-head, .faq-grid, .trial-grid { grid-template-columns: 1fr; }
   .catalog > li { grid-template-columns: 148px minmax(0, 1fr); }
-  .catalog .prices { grid-column: 1 / -1; }
+  .catalog .variants { grid-column: 1 / -1; }
   .cases { grid-template-columns: 1fr 1fr; }
   .cases article:last-child { grid-column: 1 / -1; max-width: calc(50% - 12px); }
 }
@@ -247,8 +243,7 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
   .spec div { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
   .spec dd { margin: 0; font-size: 22px; text-align: right; }
   .catalog > li { grid-template-columns: 112px minmax(0, 1fr); gap: 16px 18px; padding: 22px 0; }
-  .prices b { font-size: 22px; }
-  .prices span { font-size: 15px; }
+  .variants li { font-size: 15px; }
   .cases, .steps { grid-template-columns: 1fr; }
   .cases article:last-child { max-width: none; }
   .footer-grid { grid-template-columns: 1fr; }
